@@ -1,14 +1,8 @@
-import { Open_Sans } from "next/font/google";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { Button, Input } from "react-daisyui";
 import { HiSearch } from "react-icons/hi";
-
-const openSans = Open_Sans({
-  display: "swap",
-  preload: true,
-  subsets: ["latin"],
-});
+import { NextSeo } from "next-seo";
 
 const Home = () => {
   const router = useRouter();
@@ -16,6 +10,7 @@ const Home = () => {
 
   return (
     <main className="flex w-full pt-20 h-screen">
+      <NextSeo title="Home" />
       <div className="mx-auto max-w-md w-full">
         <form
           className="flex gap-4"

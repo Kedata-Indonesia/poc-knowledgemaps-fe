@@ -15,9 +15,36 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily: {
+      sans: ['"Open Sans"', "sans-serif"],
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light"],
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "#2563EB",
+          ".btn": {
+            "font-weight": "400",
+            "border-radius": ".25rem",
+            "font-size": "1rem",
+            "padding-left": "1rem",
+            "padding-right": "1rem",
+            height: "2.625rem",
+            "min-height": "2.625rem",
+          },
+          ".input": {
+            "border-radius": ".25rem",
+            height: "2.625rem",
+            "min-height": "2.625rem",
+          },
+          ".btn-primary": {
+            color: "#fff",
+          },
+        },
+      },
+    ],
   },
 };

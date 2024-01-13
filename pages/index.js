@@ -3,18 +3,12 @@ import { useState } from "react";
 import { Button, Input } from "react-daisyui";
 import { HiSearch } from "react-icons/hi";
 
-const openSans = Open_Sans({
-  display: "swap",
-  preload: true,
-  subsets: ["latin"],
-});
-
 const Home = () => {
   const [keyword, setKeyword] = useState("");
 
   return (
     <main className="flex w-full pt-20 h-screen">
-      <div className="mx-auto flex gap-4 max-w-md w-full">
+      <div className="mx-auto flex gap-4 max-w-lg w-full">
         <Input
           placeholder="Enter your search term"
           className="w-full"

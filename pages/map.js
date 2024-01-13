@@ -1,5 +1,6 @@
-import dynamic from "next/dynamic";
+import GraphChart from "@/components/shared/graph-chart";
 import { useRouter } from "next/router";
+import { useEffect, useRef } from "react";
 import { AiOutlineFilePdf } from "react-icons/ai";
 
 const samples = [
@@ -52,15 +53,29 @@ const samples = [
 const SearchPage = () => {
   const router = useRouter();
   const { q } = router.query;
+  const chartRef = useRef(null);
+
+  useEffect(() => {
+    const chart = chartRef.current.getEchartsInstance();
+
+    // Listen to series click event
+    chart.on("click", (params) => {
+      const { componentType } = params;
+      if (componentType !== "series") return;
+
+      const { data } = params;
+      console.log(data);
+    });
+  }, []);
 
   return (
     <div className="w-screen">
       <div className="flex w-full gap-5">
-        <div className="w-[60%] px-4 py-6">
+        <div className="w-[60%] px-4 py-6 flex flex-col">
           <h3 className="text-2xl">
             Knowlegde map of <b>{q}</b>
           </h3>
-          <GraphChart />
+          <GraphChart className="flex-grow" ref={chartRef} />
         </div>
         <div className="w-[40%] h-screen flex flex-col overflow-hidden border-l border-l-gray-300">
           <div className="w-full text-center bg-gray-100 p-4 border-b border-gray-300">
@@ -104,9 +119,5 @@ const SearchPage = () => {
     </div>
   );
 };
-
-const GraphChart = dynamic(() => import("@/components/shared/graph-chart"), {
-  ssr: false,
-});
 
 export default SearchPage;

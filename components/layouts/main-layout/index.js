@@ -1,6 +1,6 @@
 const MainLayout = ({ children }) => {
   return (
-    <main className="flex w-full pt-12 px-12 2xl:px-20 h-screen bg-primary">
+    <main className="flex w-full pt-12 px-12 2xl:px-20 min-h-screen bg-primary">
       <div className="w-full bg-white mx-auto p-10 rounded-t-lg shadow-2xl">
         {children}
       </div>

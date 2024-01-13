@@ -27,7 +27,7 @@ const samples = [
   {
     type: "journal/article",
     title:
-      "SYARI’AT ISLAM DAN HUKUM NASIONAL (Problematika Transformasi dan Integrasi Hukum Islam Kedalam Hukum Nasional) (2009))",
+      "SYARI’AT ISLAM DAN HUKUM NASIONAL (Problematika Transformasi dan Integrasi Hukum Islam Kedalam Hukum Nasional) (2009)",
     abstract:
       "Abstract Banyak tantangan yang dihadapi umat Islam dalam upayanya melakukan transformasi dan Integrasi Hukum Islam kedalam Hukum Nasional.Untuk bisa melakukan transformasi, umat Islam di Indonesia mesti terus menerus mengembangkan model-...",
     writer: "Nurrohman Nurrohman Syarif",
@@ -38,7 +38,7 @@ const samples = [
   {
     type: "journal/article",
     title:
-      "Pengaruh Hukum Islam Terhadap Hukum Nasional (Studi Kasus: Pengaruh Hukum Islam Terhadap Hukum Perkawinan Di Indonesia) (2018)",
+      "SYARI’AT ISLAM DAN HUKUM NASIONAL (Problematika Transformasi dan Integrasi Hukum Islam Kedalam Hukum Nasional) (2009)",
     abstract:
       "Hukum Islam merupakan salah satu sumber hukum nasional di Indonesia. Hukum Islam di Indonesia merupakan hukum yang bersumber dari Al-Qur’an dan Hadist. Hukum Islam di Indonesia juga merupakan hukum yang bersifat positif. Hukum Islam di Indon...",
     writer: "Rizky Nurul Hidayati",
@@ -61,7 +61,7 @@ const SearchPage = () => {
           </h3>
         </div>
         <div className="w-[40%] h-screen flex flex-col overflow-hidden border-l border-l-gray-300">
-          <div className="w-full text-center bg-gray-100 p-4">
+          <div className="w-full text-center bg-gray-100 p-4 border-b border-gray-300">
             Overview (200 documents)
           </div>
           <div className="w-full h-full overflow-y-auto flex flex-col">
@@ -73,7 +73,9 @@ const SearchPage = () => {
                 <div className="text-xs bg-gray-100 inline-block py-1 px-5 rounded-full">
                   {sample.type}
                 </div>
-                <h2 className="text-lg">{sample.title}</h2>
+                <a href="#" className="font-semibold leading-7 text-lg hover:underline">
+                  {sample.title}
+                </a>
                 <p className="text-sm">{sample.writer}</p>
                 <p className="text-xs text-gray-400">
                   {sample.publisher} {sample.year}
@@ -85,7 +87,7 @@ const SearchPage = () => {
                   </a>
                 </p>
                 <p className="text-sm ">{sample.abstract}</p>
-                <a className="btn btn-primary btn-sm">
+                <a className="btn btn-primary !btn-sm !rounded-full">
                   <AiOutlineFilePdf />
                   PDF
                 </a>

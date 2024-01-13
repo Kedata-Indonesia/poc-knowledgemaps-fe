@@ -18,7 +18,7 @@ const Home = () => {
           Map a research topic
         </h1>
         <form
-          className="flex gap-4"
+          className="flex"
           onSubmit={(e) => {
             e.preventDefault();
             router.push(`/map?q=${keyword}`);
@@ -26,11 +26,15 @@ const Home = () => {
         >
           <Input
             placeholder="Enter your search term"
-            className="w-full"
+            className="w-full !rounded-r-none !border-r-0"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
-          <Button color="primary" startIcon={<HiSearch />}>
+          <Button
+            color="primary"
+            className="!rounded-l-none"
+            startIcon={<HiSearch />}
+          >
             Search
           </Button>
         </form>

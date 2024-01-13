@@ -6,6 +6,7 @@ import { NextSeo } from "next-seo";
 import { getMainLayout } from "@/components/layouts/main-layout";
 import { useRouter } from "next/router";
 import BrandLogoSquare from "@/components/shared/brand-logo";
+import Link from "next/link";
 
 const Home = () => {
   const router = useRouter();
@@ -41,19 +42,25 @@ const Home = () => {
             Search
           </Button>
         </form>
-        <div className="mx-auto mt-2 text-xs flex items-center">
-          Powered by{" "}
-          <a
-            className="inline-block ml-1"
-            href="https://kedata.online"
-            target="_blank"
-          >
-            <img
-              src="https://kedata.online/images/main-logo.png"
-              alt="Kedata Logo"
-              className="h-4"
-            />
-          </a>
+        <div className="mx-auto mt-2 flex items-center gap-2">
+          <Link href="/about" className="text-xs text-primary">
+            What is SummaSearch?
+          </Link>
+          <div className="w-1 h-1 rounded-full bg-gray-300"></div>
+          <div className="text-xs flex items-center">
+            Powered by{" "}
+            <a
+              className="inline-block ml-1"
+              href="https://kedata.online"
+              target="_blank"
+            >
+              <img
+                src="https://kedata.online/images/main-logo.png"
+                alt="Kedata Logo"
+                className="h-4"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </>

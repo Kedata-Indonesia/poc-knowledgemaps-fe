@@ -4,8 +4,10 @@ import { Button, Input } from "react-daisyui";
 import { HiSearch } from "react-icons/hi";
 import { NextSeo } from "next-seo";
 import { getMainLayout } from "@/components/layouts/main-layout";
+import { useRouter } from "next/router";
 
 const Home = () => {
+  const router = useRouter();
   const [keyword, setKeyword] = useState("");
 
   return (
@@ -15,7 +17,13 @@ const Home = () => {
         <h1 className="text-center text-2xl font-bold mb-4">
           Map a research topic
         </h1>
-        <div className="flex gap-4">
+        <form
+          className="flex gap-4"
+          onSubmit={(e) => {
+            e.preventDefault();
+            router.push(`/map?q=${keyword}`);
+          }}
+        >
           <Input
             placeholder="Enter your search term"
             className="w-full"
@@ -25,7 +33,7 @@ const Home = () => {
           <Button color="primary" startIcon={<HiSearch />}>
             Search
           </Button>
-        </div>
+        </form>
         <div className="mx-auto mt-2 text-xs flex items-center">
           Powered by{" "}
           <a

@@ -25,6 +25,7 @@ const Home = () => {
           }}
         >
           <Input
+            required
             placeholder="Enter your search term"
             className="w-full !rounded-r-none !border-r-0"
             value={keyword}

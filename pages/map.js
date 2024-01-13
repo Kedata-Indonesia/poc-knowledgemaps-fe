@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { AiOutlineFilePdf } from "react-icons/ai";
 
@@ -59,6 +60,7 @@ const SearchPage = () => {
           <h3 className="text-2xl">
             Knowlegde map of <b>{q}</b>
           </h3>
+          <GraphChart />
         </div>
         <div className="w-[40%] h-screen flex flex-col overflow-hidden border-l border-l-gray-300">
           <div className="w-full text-center bg-gray-100 p-4 border-b border-gray-300">
@@ -73,7 +75,10 @@ const SearchPage = () => {
                 <div className="text-xs bg-gray-100 inline-block py-1 px-5 rounded-full">
                   {sample.type}
                 </div>
-                <a href="#" className="font-semibold leading-7 text-lg hover:underline">
+                <a
+                  href="#"
+                  className="font-semibold leading-7 text-lg hover:underline"
+                >
                   {sample.title}
                 </a>
                 <p className="text-sm">{sample.writer}</p>
@@ -99,5 +104,9 @@ const SearchPage = () => {
     </div>
   );
 };
+
+const GraphChart = dynamic(() => import("@/components/shared/graph-chart"), {
+  ssr: false,
+});
 
 export default SearchPage;

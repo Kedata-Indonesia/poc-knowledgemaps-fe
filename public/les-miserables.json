@@ -7,7 +7,45 @@
       "x": -266.82776,
       "y": 299.6904,
       "value": 28.685715,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0102536v1",
+        "updated": "2001-02-28T20:12:09Z",
+        "published": "2001-02-28T20:12:09Z",
+        "title": "Impact of Electron-Electron Cusp on Configuration Interaction Energies",
+        "summary": "The effect of the electron-electron cusp on the convergence of configuration\ninteraction (CI) wave functions is examined. By analogy with the\npseudopotential approach for electron-ion interactions, an effective\nelectron-electron interaction is developed which closely reproduces the\nscattering of the Coulomb interaction but is smooth and finite at zero\nelectron-electron separation. The exact many-electron wave function for this\nsmooth effective interaction has no cusp at zero electron-electron separation.\nWe perform CI and quantum Monte Carlo calculations for He and Be atoms, both\nwith the Coulomb electron-electron interaction and with the smooth effective\nelectron-electron interaction. We find that convergence of the CI expansion of\nthe wave function for the smooth electron-electron interaction is not\nsignificantly improved compared with that for the divergent Coulomb interaction\nfor energy differences on the order of 1 mHartree. This shows that, contrary to\npopular belief, description of the electron-electron cusp is not a limiting\nfactor, to within chemical accuracy, for CI calculations.",
+        "author": [
+          {
+            "name": "David Prendergast",
+            "affiliation": "Department of Physics"
+          },
+          {
+            "name": "M. Nolan",
+            "affiliation": "NMRC, University College, Cork, Ireland"
+          },
+          {
+            "name": "Claudia Filippi",
+            "affiliation": "Department of Physics"
+          },
+          {
+            "name": "Stephen Fahy",
+            "affiliation": "Department of Physics"
+          },
+          {
+            "name": "J. C. Greer",
+            "affiliation": "NMRC, University College, Cork, Ireland"
+          }
+        ],
+        "doi": "10.1063/1.1383585",
+        "link": ["", "", ""],
+        "comment": "11 pages, 6 figures, 3 tables, LaTeX209, submitted to The Journal of\n  Chemical Physics",
+        "journal_ref": "J. Chem. Phys. 115, 1626 (2001)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "1",
@@ -16,7 +54,33 @@
       "x": -418.08344,
       "y": 446.8853,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/astro-ph/0608371v1",
+        "updated": "2006-08-17T14:05:46Z",
+        "published": "2006-08-17T14:05:46Z",
+        "title": "Electron thermal conductivity owing to collisions between degenerate\n  electrons",
+        "summary": "We calculate the thermal conductivity of electrons produced by\nelectron-electron Coulomb scattering in a strongly degenerate electron gas\ntaking into account the Landau damping of transverse plasmons. The Landau\ndamping strongly reduces this conductivity in the domain of ultrarelativistic\nelectrons at temperatures below the electron plasma temperature. In the inner\ncrust of a neutron star at temperatures T &lt; 1e7 K this thermal conductivity\ncompletely dominates over the electron conductivity due to electron-ion\n(electron-phonon) scattering and becomes competitive with the the electron\nconductivity due to scattering of electrons by impurity ions.",
+        "author": [
+          {
+            "name": "P. S. Shternin",
+            "affiliation": "Ioffe Physico-Technical Institute"
+          },
+          {
+            "name": "D. G. Yakovlev",
+            "affiliation": "Ioffe Physico-Technical Institute"
+          }
+        ],
+        "doi": "10.1103/PhysRevD.74.043004",
+        "link": ["", "", ""],
+        "comment": "8 pages, 3 figures",
+        "journal_ref": "Phys.Rev. D74 (2006) 043004",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "2",
@@ -25,7 +89,36 @@
       "x": -212.76357,
       "y": 245.29176,
       "value": 9.485714,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/1802.06593v1",
+        "updated": "2018-02-19T11:51:42Z",
+        "published": "2018-02-19T11:51:42Z",
+        "title": "Electron pairing: from metastable electron pair to bipolaron",
+        "summary": "Starting from the shell structure in atoms and the significant correlation\nwithin electron pairs, we distinguish the exchange-correlation effects between\ntwo electrons of opposite spins occupying the same orbital from the average\ncorrelation among many electrons in a crystal. In the periodic potential of the\ncrystal with lattice constant larger than the effective Bohr radius of the\nvalence electrons, these correlated electron pairs can form a metastable energy\nband above the corresponding single-electron band separated by an energy gap.\nIn order to determine if these metastable electron pairs can be stabilized, we\ncalculate the many-electron exchange-correlation renormalization and the\npolaron correction to the two-band system with single electrons and electron\npairs. We find that the electron-phonon interaction is essential to\ncounterbalance the Coulomb repulsion and to stabilize the electron pairs. The\ninterplay of the electron-electron and electron-phonon interactions, manifested\nin the exchange-correlation energies, polaron effects, and screening, is\nresponsible for the formation of electron pairs (bipolarons) that are located\non the Fermi surface of the single-electron band.",
+        "author": [
+          {
+            "name": "Guo-Qiang Hai"
+          },
+          {
+            "name": "Ladir Cândido"
+          },
+          {
+            "name": "Braulio G. A. Brito"
+          },
+          {
+            "name": "François M. Peeters"
+          }
+        ],
+        "doi": "10.1088/2399-6528/aaaee0",
+        "link": ["", "", ""],
+        "comment": "17 pages, 6 figures, Journal of Physics Communications 2018",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "3",
@@ -34,7 +127,38 @@
       "x": -242.82404,
       "y": 235.26283,
       "value": 9.485714,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/2010.01066v1",
+        "updated": "2020-10-02T15:46:56Z",
+        "published": "2020-10-02T15:46:56Z",
+        "title": "Electron Temperature Anisotropy and Electron Beam Constraints From\n  Electron Kinetic Instabilities in the Solar Wind",
+        "summary": "Electron temperature anisotropies and electron beams are nonthermal features\nof the observed nonequilibrium electron velocity distributions in the solar\nwind. In collision-poor plasmas these nonequilibrium distributions are expected\nto be regulated by kinetic instabilities through wave-particle interactions.\nThis study considers electron instabilities driven by the interplay of core\nelectron temperature anisotropies and the electron beam, and firstly gives a\ncomprehensive analysis of instabilities in arbitrary directions to the\nbackground magnetic field. It clarifies the dominant parameter regime (e.g.,\nparallel core electron plasma beta $\\beta_{\\mathrm{ec\\parallel}}$, core\nelectron temperature anisotropy $A_{\\mathrm{ec}}\\equiv\nT_{\\mathrm{ec\\perp}}/T_{\\mathrm{ec\\parallel}}$, and electron beam velocity\n$V_{\\mathrm{eb}}$) for each kind of electron instability (e.g., the electron\nbeam-driven electron acoustic/magnetoacoustic instability, the electron\nbeam-driven whistler instability, the electromagnetic electron cyclotron\ninstability, the electron mirror instability, the electron firehose\ninstability, and the ordinary-mode instability). It finds that the electron\nbeam can destabilize electron acoustic/magnetoacoustic waves in the\nlow-$\\beta_{\\mathrm{ec\\parallel}}$ regime, and whistler waves in the medium-\nand large-$\\beta_{\\mathrm{ec\\parallel}}$ regime. It also finds that a new\noblique fast-magnetosonic/whistler instability is driven by the electron beam\nwith $V_{\\mathrm{eb}}\\gtrsim7V_{\\mathrm{A}}$ in a regime where\n$\\beta_{\\mathrm{ec\\parallel}}\\sim0.1-2$ and $A_{\\mathrm{ec}}&lt;1$. Moreover, this\nstudy presents electromagnetic responses of each kind of electron instability.\nThese results provide a comprehensive overview for electron instability\nconstraints on core electron temperature anisotropies and electron beams in the\nsolar wind.",
+        "author": [
+          {
+            "name": "Heyu Sun"
+          },
+          {
+            "name": "Jinsong Zhao"
+          },
+          {
+            "name": "Wen Liu"
+          },
+          {
+            "name": "Huasheng Xie"
+          },
+          {
+            "name": "Dejin Wu"
+          }
+        ],
+        "doi": "10.3847/1538-4357/abb3ca",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "4",
@@ -43,7 +167,30 @@
       "x": -379.30386,
       "y": 429.06424,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/1501.04914v1",
+        "updated": "2015-01-20T18:48:22Z",
+        "published": "2015-01-20T18:48:22Z",
+        "title": "Hamiltonian of a many-electron system with single-electron and\n  electron-pair states in a two-dimensional periodic potential",
+        "summary": "Based on the metastable electron-pair energy band in a two-dimensional (2D)\nperiodic potential obtained previously by Hai and Castelano [J. Phys.: Condens.\nMatter 26, 115502 (2014)], we present in this work a Hamiltonian of many\nelectrons consisting of single electrons and electron pairs in the 2D system.\nThe electron-pair states are metastable of energies higher than those of the\nsingle-electron states at low electron density. We assume two different\nscenarios for the single-electron band. When it is considered as the lowest\nconduction band of a crystal, we compare the obtained Hamiltonian with the\nphenomenological model Hamiltonian of a boson-fermion mixture proposed by\nFriedberg and Lee [Phys. Rev. B 40, 6745 (1989)]. Single-electron-electron-pair\nand electron-pair-electron-pair interaction terms appear in our Hamiltonian and\nthe interaction potentials can be determined from the electron-electron Coulomb\ninteractions. When we consider the single-electron band as the highest valence\nband of a crystal, we show that holes in this valence band are important for\nstabilization of the electron-pair states in the system.",
+        "author": [
+          {
+            "name": "G. -Q. Hai"
+          },
+          {
+            "name": "F. M. Peeters"
+          }
+        ],
+        "doi": "10.1140/epjb/e2014-50686-x",
+        "link": ["", "", ""],
+        "journal_ref": "Eur. Phys. J. B (2015) 88: 20",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "5",
@@ -52,7 +199,42 @@
       "x": -417.26337,
       "y": 406.03506,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/0707.4225v1",
+        "updated": "2007-07-28T09:32:22Z",
+        "published": "2007-07-28T09:32:22Z",
+        "title": "Electron-Electron Bremsstrahlung Emission and the Inference of Electron\n  Flux Spectra in Solar Flares",
+        "summary": "Although both electron-ion and electron-electron bremsstrahlung contribute to\nthe hard X-ray emission from solar flares, the latter is normally ignored. Such\nan omission is not justified at electron (and photon) energies above $\\sim 300$\nkeV, and inclusion of the additional electron-electron bremsstrahlung in\ngeneral makes the electron spectrum required to produce a given hard X-ray\nspectrum steeper at high energies.\n  Unlike electron-ion bremsstrahlung, electron-electron bremsstrahlung cannot\nproduce photons of all energies up to the maximum electron energy involved. The\nmaximum possible photon energy depends on the angle between the direction of\nthe emitting electron and the emitted photon, and this suggests a diagnostic\nfor an upper cutoff energy and/or for the degree of beaming of the accelerated\nelectrons.\n  We analyze the large event of January 17, 2005 observed by RHESSI and show\nthat the upward break around 400 keV in the observed hard X-ray spectrum is\nnaturally accounted for by the inclusion of electron-electron bremsstrahlung.\nIndeed, the mean source electron spectrum recovered through a regularized\ninversion of the hard X-ray spectrum, using a cross-section that includes both\nelectron-ion and electron-electron terms, has a relatively constant spectral\nindex $\\delta$ over the range from electron kinetic energy $E = 200$ keV to $E\n= 1$ MeV. However, the level of detail discernible in the recovered electron\nspectrum is not sufficient to determine whether or not any upper cutoff energy\nexists.",
+        "author": [
+          {
+            "name": "Eduard P. Kontar"
+          },
+          {
+            "name": "A. Gordon Emslie"
+          },
+          {
+            "name": "Anna Maria Massone"
+          },
+          {
+            "name": "Michele Piana"
+          },
+          {
+            "name": "John C. Brown"
+          },
+          {
+            "name": "Marco Prato"
+          }
+        ],
+        "doi": "10.1086/521977",
+        "link": ["", "", ""],
+        "comment": "7 pages, 5 figures, submitted to Astrophysical Journal",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "6",
@@ -61,7 +243,24 @@
       "x": -332.6012,
       "y": 485.16974,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/astro-ph/9904306v1",
+        "updated": "1999-04-22T15:54:59Z",
+        "published": "1999-04-22T15:54:59Z",
+        "title": "Improved scenario of baryogenesis",
+        "summary": "It is assumed that, in the primordial plasma, at the temperatures above the\nmass of electron, fermions are in the neutral state being the superposition of\nparticle and antiparticle. There exists neutral proton-electron symmetry.\nProton-electron equilibrium is defined by the proton-electron mass difference.\nAt the temperature equal to the mass of electron, pairs of neutral electrons\nannihilate into photons, and pairs of neutral protons and electrons survive as\nprotons and electrons.",
+        "author": {
+          "name": "D. L. Khokhlov"
+        },
+        "comment": "3 pages LaTeX",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "7",
@@ -70,7 +269,25 @@
       "x": -382.69568,
       "y": 475.09113,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0310615v1",
+        "updated": "2003-10-27T08:59:02Z",
+        "published": "2003-10-27T08:59:02Z",
+        "title": "Exact Electron-Pairing Ground States of Tight-Binding Models with Local\n  Attractive Interactions",
+        "summary": "We present a class of exactly solvable models of correlated electrons. The\nmodels are defined in any dimension $d$ and consist of electron-hopping terms\nand local attractive interactions between electrons. For each even number of\nelectrons less than or equal to $1/(d+1)$-filling, we find the exact ground\nstate in which all electrons form pairs of a certain type, and thus the models\nexhibit an electron-pair condensation.",
+        "author": {
+          "name": "Akinori Tanaka"
+        },
+        "doi": "10.1143/JPSJ.73.1107",
+        "link": ["", "", ""],
+        "comment": "4 pages, 1 figure",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "8",
@@ -79,7 +296,29 @@
       "x": -320.384,
       "y": 387.17325,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/2101.10508v1",
+        "updated": "2021-01-26T01:15:10Z",
+        "published": "2021-01-26T01:15:10Z",
+        "title": "Insights into the Electron-Electron Interaction from Quantum Monte Carlo\n  Calculations",
+        "summary": "The effective electron-electron interaction in the electron gas depends on\nboth the density and spin local field factors. Variational Diagrammatic Quantum\nMonte Carlo calculations of the spin local field factor are reported and used\nto quantitatively present the full spin-dependent, electron-electron\ninteraction. Together with the charge local field factor from previous\nDiffusion Quantum Monte Carlo calculations, we obtain the complete form of the\neffective electron-electron interaction in the uniform three-dimensional\nelectron gas. Very simple quadratic formulas are presented for the local field\nfactors that quantitatively produce all of the response functions of the\nelectron gas at metallic densities.\n  Exchange and correlation become increasingly important at low densities. At\nthe compressibility divergence at rs = 5.25, both the direct (screened Coulomb)\nterm and the charge-dependent exchange term in the electron-electron\ninteraction at q=0 are separately divergent. However, due to large\ncancellations, their difference is finite, well behaved, and much smaller than\neither term separately. As a result, the spin contribution to the\nelectron-electron interaction becomes an important factor. The static\nelectron-electron interaction is repulsive as a function of density but is less\nrepulsive for electrons with parallel spins.\n  The effect of allowing a deformable, rather than rigid, positive background\nis shown to be as quantitatively important as exchange and correlation. As a\nsimple concrete example, the electron-electron interaction is calculated using\nthe measured bulk modulus of the alkali metals with a linear phonon dispersion.\nThe net electron-electron interaction in lithium is attractive for wave vectors\n$0-2k_F$, which suggests superconductivity, and is mostly repulsive for the\nother alkali metals.",
+        "author": [
+          {
+            "name": "Carl A. Kukkonen"
+          },
+          {
+            "name": "Kun Chen"
+          }
+        ],
+        "comment": "16 pages, 20 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "9",
@@ -88,7 +327,29 @@
       "x": -344.39832,
       "y": 451.16772,
       "value": 4,
-      "category": 0
+      "category": 0,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0205001v1",
+        "updated": "2002-04-30T20:00:18Z",
+        "published": "2002-04-30T20:00:18Z",
+        "title": "Electron-electron interactions in a weakly screened two-dimensional\n  electron system",
+        "summary": "We probe the strength of electron-electron interactions using\nmagnetoconductivity measurements of two-dimensional non-degenerate electrons on\nliquid helium at 1.22 K. Our data extend to electron densities that are two\norders of magnitude smaller than previously reported. We span both the\nindependent-electron regime where the data are qualitatively described by the\nself-consistent Born approximation (SCBA), and the strongly-interacting\nelectron regime. At finite fields we observe a crossover from SCBA to Drude\ntheory as a function of electron density.",
+        "author": [
+          {
+            "name": "I. Karakurt"
+          },
+          {
+            "name": "A. J. Dahm"
+          }
+        ],
+        "comment": "4 pages, 5 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "10",
@@ -97,7 +358,51 @@
       "x": -89.34107,
       "y": 234.56128,
       "value": 4,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/2010.02461v1",
+        "updated": "2020-10-06T04:01:06Z",
+        "published": "2020-10-06T04:01:06Z",
+        "title": "Interplay of spin-orbit coupling and Coulomb interaction in ZnO-based\n  electron system",
+        "summary": "Spin-orbit coupling (SOC) is pivotal for various fundamental spin-dependent\nphenomena in solids and their technological applications. In semiconductors,\nthese phenomena have been so far studied in relatively weak electron-electron\ninteraction regimes, where the single electron picture holds. However, SOC can\nprofoundly compete against Coulomb interaction, which could lead to the\nemergence of unconventional electronic phases. Since SOC depends on the\nelectric field in the crystal including contributions of itinerant electrons,\nelectron-electron interactions can modify this coupling. Here we demonstrate\nthe emergence of SOC effect in a high-mobility two-dimensional electron system\nin a simple band structure MgZnO/ZnO semiconductor. This electron system\nfeatures also strong electron-electron interaction effects. By changing the\ncarrier density with Mg-content, we tune the SOC strength and achieve its\ninterplay with electron-electron interaction. These systems pave a way to\nemergent spintronic phenomena in strong electron correlation regime and to the\nformation of novel quasiparticles with the electron spin strongly coupled to\nthe density.",
+        "author": [
+          {
+            "name": "D. Maryenko"
+          },
+          {
+            "name": "M. Kawamura"
+          },
+          {
+            "name": "A. Ernst"
+          },
+          {
+            "name": "V. K. Dugaev"
+          },
+          {
+            "name": "E. Ya. Sherman"
+          },
+          {
+            "name": "M. Kriener"
+          },
+          {
+            "name": "M. S. Bahramy"
+          },
+          {
+            "name": "Y. Kozuka"
+          },
+          {
+            "name": "M. Kawasaki"
+          }
+        ],
+        "doi": "10.1038/s41467-021-23483-4",
+        "link": ["", "", ""],
+        "comment": "Main Text (4 Figures), Supplementary notes (4 Figures)",
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "11",
@@ -106,7 +411,40 @@
       "x": -87.93029,
       "y": -6.8120565,
       "value": 100,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/1403.5117v2",
+        "updated": "2014-04-03T18:29:50Z",
+        "published": "2014-03-20T12:47:57Z",
+        "title": "Free-electron properties of metals under ultrafast laser-induced\n  electron-phonon nonequilibrium: A first-principles study",
+        "summary": "The electronic behavior of various solid metals (Al, Ni, Cu, Au, Ti, and W)\nunder ultrashort laser irradiation is investigated by means of density\nfunctional theory. Successive stages of extreme nonequilibrium on picosecond\ntime scale impact the excited material properties in terms of optical coupling\nand transport characteristics. As these are generally modelled based on the\nfree-electron classical theory, the free-electron number is a key parameter.\nHowever, this parameter remains unclearly defined and dependencies on the\nelectronic temperature are not considered. Here, from first-principles\ncalculations, density of states are obtained with respect to electronic\ntemperatures varying from 10^-2 to 10^5 K within a cold lattice. Based on the\nconcept of localized or delocalized electronic states, temperature dependent\nfree-electron numbers are evaluated for a series of metals covering a large\nrange of electronic configurations. With the increase of the electronic\ntemperature we observe strong adjustments of the electronic structures of\ntransition metals. These are related to variations of electronic occupation in\nlocalized d bands, via change in electronic screening and electron-ion\neffective potential. The electronic temperature dependence of nonequilibrium\ndensity of states has consequences on electronic chemical potentials,\nfree-electron numbers, electronic heat capacities, and electronic pressures.\nThus electronic thermodynamic properties are computed and discussed, serving as\na base to derive energetic and transport properties allowing the description of\nexcitation and relaxation phenomena caused by rapid laser action.",
+        "author": [
+          {
+            "name": "Emile Bévillon",
+            "affiliation": "LHC"
+          },
+          {
+            "name": "Jean-Philippe Colombier",
+            "affiliation": "LHC"
+          },
+          {
+            "name": "Vanina Recoules",
+            "affiliation": "DPTA"
+          },
+          {
+            "name": "Razvan Stoian",
+            "affiliation": "LHC"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.89.115117",
+        "link": ["", "", ""],
+        "journal_ref": "Physical Review B (Condensed Matter) 89 (2014) 115117",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": true
+      }
     },
     {
       "id": "12",
@@ -115,7 +453,43 @@
       "x": -339.77908,
       "y": -184.69139,
       "value": 6.742859,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0002322v1",
+        "updated": "2000-02-21T11:53:06Z",
+        "published": "2000-02-21T11:53:06Z",
+        "title": "First-principles calculations of hot-electron lifetimes in metals",
+        "summary": "First-principles calculations of the inelastic lifetime of low-energy\nelectrons in Al, Mg, Be, and Cu are reported. Quasiparticle damping rates are\nevaluated from the knowledge of the electron self-energy, which we compute\nwithin the GW approximation of many-body theory. Inelastic lifetimes are then\nobtained along various directions of the electron wave vector, with full\ninclusion of the band structure of the solid. Average lifetimes are also\nreported, as a function of the electron energy. In Al and Mg, splitting of the\nband structure over the Fermi level yields electron lifetimes that are smaller\nthan those of electrons in a free-electron gas. Larger lifetimes are found in\nBe, as a result of the characteristic dip that this material presents in the\ndensity of states near the Fermi level. In Cu, a major contribution from $d$\nelectrons participating in the screening of electron-electron interactions\nyields electron lifetimes which are well above those of electrons in a\nfree-electron gas with the electron density equal to that of valence ($4s^1$)\nelectrons.",
+        "author": [
+          {
+            "name": "I. Campillo"
+          },
+          {
+            "name": "V. M. Silkin"
+          },
+          {
+            "name": "J. M. Pitarke"
+          },
+          {
+            "name": "E. V. Chulkov"
+          },
+          {
+            "name": "A. Rubio"
+          },
+          {
+            "name": "P. M. Echenique"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.61.13484",
+        "link": ["", "", ""],
+        "comment": "8 pages, 10 figures, to appear in Phys. Rev. B",
+        "journal_ref": "Phys. Rev. B 61, 13484 (2000)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "13",
@@ -124,7 +498,34 @@
       "x": -194.31313,
       "y": 178.55301,
       "value": 4,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/1010.5544v1",
+        "updated": "2010-10-27T00:48:15Z",
+        "published": "2010-10-27T00:48:15Z",
+        "title": "D'yakonov-Perel' spin relaxation for degenerate electrons in the\n  electron-hole liquid",
+        "summary": "We present an analytical study of the D'yakonov-Perel' spin relaxation time\nfor degenerate electrons in a photo-excited electron-hole liquid in intrinsic\nsemiconductors exhibiting a spin-split band structure. The D'yakonov-Perel'\nspin relaxation of electrons in these materials is controlled by electron-hole\nscattering, with small corrections from electron-electron scattering and\nvirtually none from electron-impurity scattering. We derive simple expressions\n(one-dimensional and two-dimensional integrals respectively) for the effective\nelectron-hole and electron-electron scattering rates which enter the spin\nrelaxation time calculation. The electron-hole scattering rate is found to be\ncomparable to the scattering rates from impurities in the electron liquid - a\ncommon model for n-type doped semiconductors. As the density of electron-hole\npairs decreases (within the degenerate regime), a strong enhancement of the\nscattering rates and a corresponding slowing down of spin relaxation is\npredicted due to exchange and correlation effects in the electron-hole liquid.\nIn the opposite limit of high density, the original D'yakonov-Perel' model\nfails due to decreasing scattering rates and is eventually superseded by free\nprecession of individual quasiparticle spins.",
+        "author": [
+          {
+            "name": "Matthew D. Mower"
+          },
+          {
+            "name": "G. Vignale"
+          },
+          {
+            "name": "I. V. Tokatly"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.83.155205",
+        "link": ["", "", ""],
+        "comment": "16 pages, 5 figures",
+        "journal_ref": "Phys. Rev. B 83, 155205 (2011)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "14",
@@ -133,7 +534,40 @@
       "x": -158.05168,
       "y": 201.99768,
       "value": 4,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/1503.06943v1",
+        "updated": "2015-03-24T08:08:08Z",
+        "published": "2015-03-24T08:08:08Z",
+        "title": "First-principles calculations of heat capacities of ultrafast\n  laser-excited electrons in metals",
+        "summary": "Ultrafast laser excitation can induce fast increases of the electronic\nsubsystem temperature. The subsequent electronic evolutions in terms of band\nstructure and energy distribution can determine the change of several\nthermodynamic properties, including one essential for energy deposition; the\nelectronic heat capacity. Using density functional calculations performed at\nfinite electronic temperatures, the electronic heat capacities dependent on\nelectronic temperatures are obtained for a series of metals, including free\nelectron like, transition and noble metals. The effect of exchange and\ncorrelation functionals and the presence of semicore electrons on electronic\nheat capacities are first evaluated and found to be negligible in most cases.\nThen, we tested the validity of the free electron approaches, varying the\nnumber of free electrons per atom. This shows that only simple metals can be\ncorrectly fitted with these approaches. For transition metals, the presence of\nlocalized d electrons produces a strong deviation toward high energies of the\nelectronic heat capacities, implying that more energy is needed to thermally\nexcite them, compared to free sp electrons. This is attributed to collective\nexcitation effects strengthened by a change of the electronic screening at high\ntemperature.",
+        "author": [
+          {
+            "name": "Emile Bévillon",
+            "affiliation": "LHC"
+          },
+          {
+            "name": "Jean-Philippe Colombier",
+            "affiliation": "LHC"
+          },
+          {
+            "name": "Vanina Recoules",
+            "affiliation": "LHC"
+          },
+          {
+            "name": "Razvan Stoian",
+            "affiliation": "LHC"
+          }
+        ],
+        "doi": "10.1016/j.apsusc.2014.09.146",
+        "link": ["", "", ""],
+        "journal_ref": "Applied Surface Science, Elsevier, 2015, 336, pp.79-84",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "15",
@@ -142,7 +576,33 @@
       "x": -127.701546,
       "y": 242.55057,
       "value": 4,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/1703.04717v3",
+        "updated": "2017-06-29T15:28:32Z",
+        "published": "2017-03-14T20:48:08Z",
+        "title": "Born-Oppenheimer Dynamics, Electronic Friction, and the Inclusion of\n  Electron-Electron Interactions",
+        "summary": "We present a universal expression for the electronic friction as felt by a\nset of classical nuclear degrees of freedom (DoF's) coupled to a manifold of\nquantum electronic DoF's; no assumptions are made regarding the nature of the\nelectronic Hamiltonian and electron-electron repulsions are allowed. Our\nderivation is based on a quantum-classical Liouville equation (QCLE) for the\ncoupled electronic-nuclear motion, followed by an adiabatic approximation\nwhereby electronic transitions are assumed to equilibrate faster than nuclear\nmovement. The resulting form of friction is completely general, but does reduce\nto previously published expressions for the quadratic Hamiltonian (i.e.\nHamiltonians without electronic correlation). At equilibrium, the second\nfluctuation-dissipation theorem is satisfied and the frictional matrix is\nsymmetric. To demonstrate the importance of electron-electron correlation, we\nstudy electronic friction within the Anderson-Holstein model, where a proper\ntreatment of electron-electron interactions shows signatures of a Kondo\nresonance and a mean-field treatment is completely inadequate.",
+        "author": [
+          {
+            "name": "Wenjie Dou"
+          },
+          {
+            "name": "Gaohan Miao"
+          },
+          {
+            "name": "Joseph E. Subotnik"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.119.046001",
+        "link": ["", "", ""],
+        "journal_ref": "Phys. Rev. Lett. 119, 046001 (2017)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "16",
@@ -151,7 +611,26 @@
       "x": -385.2226,
       "y": -393.5572,
       "value": 25.942856,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/1912.05080v2",
+        "updated": "2020-01-06T07:23:18Z",
+        "published": "2019-12-11T02:00:33Z",
+        "title": "Emergence and spectral-weight transfer of electronic states in the\n  Hubbard ladder",
+        "summary": "The number of electronic bands is usually considered invariant regardless of\nthe electron density in a band picture. However, in interacting systems, the\nspectral-weight distribution generally changes depending on the electron\ndensity, and electronic states can even emerge or disappear as the electron\ndensity changes. Here, to clarify how electronic states emerge and become\ndominant as the electron density changes, the spectral function of the Hubbard\nladder with strong repulsion and strong intrarung hopping is studied using the\nnon-Abelian dynamical density-matrix renormalization-group method. A mode\nemerging in the low-electron-density limit gains spectral weight as the\nelectron density increases and governs the dimer Mott physics at\nquarter-filling. In contrast, the antibonding band, which is dominant in the\nlow-electron-density regime, loses spectral weight and disappears at the Mott\ntransition at half-filling, exhibiting the momentum-shifted magnetic dispersion\nrelation in the small-doping limit. This paper identifies the origin of the\nelectronic states responsible for the Mott transition and brings a new\nperspective to electronic bands by revealing the overall nature of electronic\nstates over a wide energy and electron-density regime.",
+        "author": {
+          "name": "Masanori Kohno"
+        },
+        "doi": "10.1103/PhysRevB.100.235143",
+        "link": ["", "", ""],
+        "comment": "11 pages, 6 figures, 1 table",
+        "journal_ref": "Phys. Rev. B 100, 235143 (2019)",
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "17",
@@ -160,7 +639,25 @@
       "x": -516.55884,
       "y": -393.98975,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/9610058v1",
+        "updated": "1996-10-08T14:08:55Z",
+        "published": "1996-10-08T14:08:55Z",
+        "title": "Electronic Properties Of Buckminsterfullerenes: Degeneracies and\n  Surprises",
+        "summary": "Buckminsterfullerene compounds exibit remarkable physics at low temperatures,\ne.g. high temperature superconductivity in alkali-fullerenes, and\nferromagnetism in TDAE -C60. Here we review recent theoretical studies of\nelectron correlations in these compounds. In particular, we discuss models of\nelectron-vibron interactions, electron-electron interactions, and\nintermolecular hopping. We show that the origin of novel electronic phases lies\nin {\\em local} degeneracies of C60; a direct consequence of the high molecular\nsymmetry.",
+        "author": {
+          "name": "Assa Auerbach",
+          "affiliation": "Technion, Israel"
+        },
+        "comment": "Latex, to appear in Fullerene Science and Technology",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "18",
@@ -169,7 +666,30 @@
       "x": -464.79382,
       "y": -493.57944,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/0708.0523v1",
+        "updated": "2007-08-03T14:34:40Z",
+        "published": "2007-08-03T14:34:40Z",
+        "title": "Energy relaxation in the spin-polarized disordered electron liquid",
+        "summary": "The energy relaxation in the spin-polarized disordered electron systems is\nstudied in the diffusive regime. We derived the quantum kinetic equation in\nwhich the kernel of electron-electron collision integral explicitly depends on\nthe electron magnetization. As the consequence, the inelastic scattering rate\nis found to have non-monotonic dependence on the spin polarization of the\nelectron system.",
+        "author": [
+          {
+            "name": "N. M. Chtchelkatchev"
+          },
+          {
+            "name": "I. S. Burmistrov"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.100.206804",
+        "link": ["", "", ""],
+        "journal_ref": "Phys. Rev. Lett. 100, 206804 (2008)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "19",
@@ -178,7 +698,26 @@
       "x": -515.1624,
       "y": -456.9891,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/0803.3893v1",
+        "updated": "2008-03-27T11:38:09Z",
+        "published": "2008-03-27T11:38:09Z",
+        "title": "Shear viscosity of degenerate electron matter",
+        "summary": "We calculate the partial electron shear viscosity $\\eta_{ee}$ limited by\nelectron-electron collisions in a strongly degenerate electron gas taking into\naccount the Landau damping of transverse plasmons. The Landau damping strongly\nsuppresses $\\eta_{ee}$ in the domain of ultrarelativistic degenerate electrons\nand modifies its %asymptotic temperature behavior. The efficiency of the\nelectron shear viscosity in the cores of white dwarfs and envelopes of neutron\nstars is analyzed.",
+        "author": {
+          "name": "P. S. Shternin"
+        },
+        "doi": "10.1088/1751-8113/41/20/205501",
+        "link": ["", "", ""],
+        "comment": "16 pages, 4 figures, accepted to Journal of Physics A",
+        "journal_ref": "J.Phys.A41:205501,2008",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "20",
@@ -187,7 +726,30 @@
       "x": -408.12122,
       "y": -464.5048,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/1202.4452v1",
+        "updated": "2012-02-19T13:29:44Z",
+        "published": "2012-02-19T13:29:44Z",
+        "title": "Plasmon-assisted electron-electron collisions at metallic surfaces",
+        "summary": "We present a theoretical treatment for the ejection of a secondary electron\nfrom a clean metallic surface induced by the impact of a fast primary electron.\nAssuming a direct scattering between the incident, primary electron and the\nelectron in a metal, we calculate the electron-pair energy distributions at the\nsurfaces of Al and Be. Different models for the screening of the\nelectron-electron interaction are examined and the footprints of the surface\nand the bulk plasmon modes are determined and analyzed. The formulated\ntheoretical approach is compared with the available experimental data on the\nelectron-pair emission from Al.",
+        "author": [
+          {
+            "name": "Konstantin A. Kouzakov"
+          },
+          {
+            "name": "Jamal Berakdar"
+          }
+        ],
+        "doi": "10.1103/PhysRevA.00.002900",
+        "link": ["", "", ""],
+        "comment": "30 pages, 9 figures",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "21",
@@ -196,7 +758,24 @@
       "x": -456.44113,
       "y": -425.13303,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/1607.02338v1",
+        "updated": "2016-07-08T12:37:10Z",
+        "published": "2016-07-08T12:37:10Z",
+        "title": "Resonant electron-phonon-electron interaction",
+        "summary": "The effect of the resonance of electron scattering energy difference and\nphonon energy on the electron-phonon-electron interaction (EPEI) is studied.\nResults show that the resonance of electron transition energy and phonon energy\ncan enhance EPEI by a magnitude of 1 to 2. Moreover, the anisotropic S-wave\nelectron or dx2-y2 electron can enhance resonance EPEI, and the self-energy\ncorrection of the electron will weaken resonance EPEI. Particularly, the\nasymmetrical spin-flip scattering process in k space can reduce the effect of\nelectronic self-energy to enhance resonance EPEI",
+        "author": {
+          "name": "Jiang-Tao Liu"
+        },
+        "comment": "11 pages, 5 figs",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "22",
@@ -205,7 +784,29 @@
       "x": -459.1107,
       "y": -362.5133,
       "value": 20.457146,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/1806.11057v1",
+        "updated": "2018-06-28T16:16:48Z",
+        "published": "2018-06-28T16:16:48Z",
+        "title": "The electric field of an electron in a electron-hole plasma with\n  degenerate electrons",
+        "summary": "We consider the possibility of formation of a superconductivity state either\nin a semiconductor or in a electron-hole plasma with the degenerate electrons\ndue to the attractive forces between the electrons as a result of the exchange\neffects through the electron-hole sound wave by analogy to the phonon waves in\na solid state. We have determined the view of an interaction potential between\ntwo electrons in a degenerate electron-hole plasma. The potential appears to be\nattractive at distances large than the Debye radius and decreases as $1/r^3$.\nWe discuss the conditions at which the bound electron state - Cooper Pair in a\nsuch field can be formed.",
+        "author": [
+          {
+            "name": "S. P. Sadykova"
+          },
+          {
+            "name": "A. A. Rukhadze"
+          }
+        ],
+        "comment": "5 pages",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "23",
@@ -214,7 +815,30 @@
       "x": -313.42786,
       "y": -289.44803,
       "value": 42.4,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0604125v1",
+        "updated": "2006-04-05T10:07:55Z",
+        "published": "2006-04-05T10:07:55Z",
+        "title": "Electron-Phonon Scattering in Semiconductor Structures with\n  One-Dimensional Electron Gas",
+        "summary": "In this study a method for calculation of the electron-phonon scattering rate\nin semiconductor structures with one-dimensional electron gas is developed. The\nenergy uncertainty of electrons is taken into account.",
+        "author": [
+          {
+            "name": "Dmitry Pozdnyakov"
+          },
+          {
+            "name": "Vadim Galenchik"
+          }
+        ],
+        "comment": "3 pages",
+        "journal_ref": "Phys. Low-Dim. Struct. 1, 17-19 (2006)",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "24",
@@ -223,7 +847,25 @@
       "x": 4.6313396,
       "y": -273.8517,
       "value": 31.428574,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/1001.0795v2",
+        "updated": "2010-01-27T14:43:57Z",
+        "published": "2010-01-05T23:43:55Z",
+        "title": "On Unconventional Electron Pairing In a Periodic Potential",
+        "summary": "On the assumption that two electrons with the same group velocity effectively\nattract each other a simple model Hamiltonian is proposed to question the\nexistence of unconventional electron pairs formed by electrons in a strong\nperiodic potential.",
+        "author": {
+          "name": "Valentin Voroshilov"
+        },
+        "doi": "10.1016/j.physc.2010.08.007",
+        "link": ["", "", ""],
+        "comment": "8 pages",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "25",
@@ -232,7 +874,23 @@
       "x": 82.80825,
       "y": -203.1144,
       "value": 45.142853,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/1301.2544v1",
+        "updated": "2013-01-11T16:45:02Z",
+        "published": "2013-01-11T16:45:02Z",
+        "title": "Spin polarization of electrons in quantum wires",
+        "summary": "The total energy of a quasi-one-dimensional electron system is calculated\nusing density functional theory. It is shown that spontaneous ferromagnetic\nstate in quantum wire occurs at low one-dimensional electron density. The\ncritical electron density below which electrons are in spin-polarized state is\nestimated analytically.",
+        "author": {
+          "name": "A. A. Vasilchenko"
+        },
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": true
+      }
     },
     {
       "id": "26",
@@ -241,7 +899,26 @@
       "x": 78.64646,
       "y": -31.512747,
       "value": 31.428574,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1804.07299v1",
+        "updated": "2018-04-18T20:08:27Z",
+        "published": "2018-04-18T20:08:27Z",
+        "title": "Electron beam-plasma interaction and electron-acoustic solitary waves in\n  a plasma with suprathermal electrons",
+        "summary": "Suprathermal electrons and inertial drifting electrons, so called electron\nbeam, are crucial to the nonlinear dynamics of electrostatic solitary waves\nobserved in several astrophysical plasmas. In this paper, the propagation of\nelectron-acoustic solitary waves is investigated in a collisionless,\nunmagnetized plasma consisting of cool inertial background electrons, hot\nsuprathermal electrons (modeled by a $\\kappa$-type distribution), and\nstationary ions. The plasma is penetrated by a cool electron beam component. A\nlinear dispersion relation is derived to describe small-amplitude wave\nstructures that shows a weak dependence of the phase speed on the electron beam\nvelocity and density. A (Sagdeev-type) pseudopotential approach is employed to\nobtain the existence domain of large-amplitude solitary waves, and investigate\nhow their nonlinear structures depend on the kinematic and physical properties\nof the electron beam and the suprathermality (described by $\\kappa$) of the hot\nelectrons. The results indicate that the electron beam can largely alter the\nelectron-acoustic solitary waves, but can only produce negative polarity\nsolitary waves in this model. While the electron beam co-propagates with the\nsolitary waves, the soliton existence domain (Mach number range) becomes\nnarrower (nearly down to nil) with increasing the beam speed and the\nbeam-to-hot electron temperature ratio, and decreasing the beam-to-cool\nelectron density ratio in high suprathermality (low $\\kappa$). It is found that\nthe electric potential amplitude largely declines with increasing the beam\nspeed and the beam-to-cool electron density ratio for co-propagating solitary\nwaves, but is slightly decreased by raising the beam-to-hot electron\ntemperature ratio.",
+        "author": {
+          "name": "Ashkbiz Danehkar"
+        },
+        "doi": "10.1088/1361-6587/aabc40",
+        "link": ["", "", ""],
+        "comment": "23 pages, 10 figures, accepted for publication in Plasma Physics and\n  Controlled Fusion",
+        "journal_ref": "Plasma Phys.Control.Fusion 60:065010,2018",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "27",
@@ -250,7 +927,25 @@
       "x": -81.46074,
       "y": -204.20204,
       "value": 47.88571,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/2304.02341v1",
+        "updated": "2023-04-05T09:54:49Z",
+        "published": "2023-04-05T09:54:49Z",
+        "title": "Rotating bi-electron in two-dimensional systems with mexican-hat\n  single-electron energy dispersion",
+        "summary": "A number of novel two-dimensional materials and nanostructures demonstrate\ncomplex single-electron energy dispersion, which is called the mexican-hat\ndispersion. In this paper, we analyze interaction of a pair of electrons with\nsuch an energy dispersion. We show that relative motion of the electron pair is\nof a very peculiar character. For example, the real space trajectories\ncorresponding to electron-electron scattering can have three reversal points,\nreversal points at non-zero radial momentum and other unusual features. Despite\nthe repulsive Coulomb interaction, two electrons can be coupled forming a\ncomposite quasi-particle - the bi-electron. The bi-electron corresponds to\nexcited states of the two-electron system. Because the bi-electron coupled\nstates exist in continuum of extended (free) states of the electron pair, these\nstates are quasi-resonant and have finite times of life. We found that rotating\nbi-electron is a long-living composite quasi-particle. The rotating\nbi-electrons can be in motion. For slowly moving bi-electrons, we determined\nthe kinetic energy and the effective mass. Due to strongly nonparabolic energy\ndispersion, the translational motion of the bi-electron is coupled to its\ninternal motion. This results in effective masses dependent on quantum states\nof the bi-electron. In the paper, properties of the bi-electron are illustrated\nfor the example of bigraphene in a transverse electric field.",
+        "author": {
+          "name": "V. A. Kochelap"
+        },
+        "comment": "13 pages, 4 figures",
+        "journal_ref": "Semiconductor Physics, Quantum Electronics &amp; Optoelectronics 25\n  (3), 240-253 (2022)",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": true
+      }
     },
     {
       "id": "28",
@@ -259,7 +954,35 @@
       "x": -225.73984,
       "y": 82.41631,
       "value": 12.228573,
-      "category": 4
+      "category": 4,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0402023v1",
+        "updated": "2004-02-01T23:10:34Z",
+        "published": "2004-02-01T23:10:34Z",
+        "title": "Electron Dynamics at a Positive Ion",
+        "summary": "The dynamics of electrons in the presence of a positive ion is considered for\nconditions of weak electron-electron couping but strong electron-ion coupling.\nThe equilibrium electron density and electric field time correlation functions\nare evaluated for semi-classical conditions using a classical statistical\nmechanics with a regularized electron-ion interaction for MD simulation. The\ntheoretical analysis for the equilibrium state is obtained from the\ncorresponding nonlinear Vlasov equation. Time correlation functions for the\nelectrons are determined from the linearized Vlasov equation. The resulting\nelectron dynamics is described in terms of a distribution of single\nelectron-ion trajectories screened by an inhomogeneous electron gas dielectric\nfunction. The results are applied to calculation of the autocorrelation\nfunction for the electron electric field at the ion for $ 0\\leq Z\\leq 40$,\nincluding conditions of strong electron-ion coupling. The electron stopping\npower and self-diffusion coefficient are determined from these results, and all\nproperties calculated are compared with those obtained from semi-classical\nmolecular dynamics simulation. The agreement with semi-classical MD simulation\nis found to be reasonable. The theoretical description provides an instructive\ninterpretation for the strong electron-ion results.",
+        "author": [
+          {
+            "name": "James W. Dufty"
+          },
+          {
+            "name": "Ilya V. Pogorelov"
+          },
+          {
+            "name": "Bernard Talin"
+          },
+          {
+            "name": "Annette Calisti"
+          }
+        ],
+        "comment": "Submitted to Phys. Rev. E",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "29",
@@ -268,7 +991,46 @@
       "x": -385.6842,
       "y": -20.206686,
       "value": 23.2,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/0911.4914v3",
+        "updated": "2010-03-05T11:39:47Z",
+        "published": "2009-11-25T16:54:34Z",
+        "title": "Experimental Determination of Electron Transition Probabilities in\n  Elementary Electron-Phonon Scattering Processes Using Electron-Energy-Loss\n  Spectroscopy: The Example of Graphite",
+        "summary": "We have investigated coupling constants in elementary electron-phonon\nscattering processes on a graphite surface by the combined use of\nhigh-resolution electron-energy-loss spectroscopy (HREELS) and very low-energy\nelectron diffraction (VLEED). HREELS is used to measure the modulations of\nelectron transition probabilities from incoming electrons in vacuum to outgoing\nelectrons in vacuum where the transition includes one-phonon scattering\nprocesses inside a solid. Determining the electronic band structures of\ngraphite with VLEED, we defined electronic states of the solid surface that\nelectrons entered before and after scattering off phonons. Thus, we observed\nthat the measured electron transition probabilities significantly depended on\nwhether the electrons were in a bulk Bloch state or an evanescent state before\nscattering off the phonons. This result clearly indicates that the measured\nelectron transition probabilities reflect the strength of the coupling\nconstants in the solid.",
+        "author": [
+          {
+            "name": "Hirofumi Yanagisawa"
+          },
+          {
+            "name": "Toma Yorisaki"
+          },
+          {
+            "name": "Ryota Niikura"
+          },
+          {
+            "name": "Shuhei Kato"
+          },
+          {
+            "name": "Yasuchika Ishida"
+          },
+          {
+            "name": "Kenji Kamide"
+          },
+          {
+            "name": "Chuhei Oshima"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.81.235430",
+        "link": ["", "", ""],
+        "comment": "4 pages, 4 figures",
+        "journal_ref": "Physical Review B 81, 235430 (2010)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "30",
@@ -277,7 +1039,32 @@
       "x": -403.92447,
       "y": -197.69823,
       "value": 6.742859,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/2110.00764v1",
+        "updated": "2021-10-02T09:14:14Z",
+        "published": "2021-10-02T09:14:14Z",
+        "title": "Quantum-coherent light-electron interaction in an SEM",
+        "summary": "The last two decades experimentally affirmed the quantum nature of free\nelectron wavepackets by the rapid development of transmission electron\nmicroscopes into ultrafast, quantum-coherent systems. In particular, ultrafast\nelectron pulses can be generated and timed to interact with optical\nnear-fields, yielding coherent exchange of the quantized photon energy between\nthe relativistic electron wavepacket and the light field. So far, all\nexperiments have been restricted to the physically-confining bounds of\ntransmission electron microscopes, with their small, millimeter-sized sample\nchambers. In this work, we show the quantum coherent coupling between electrons\nand light in a scanning electron microscope, at unprecedentedly low electron\nenergies down to 10.4 keV, so with sub-relativistic electrons. Scanning\nelectron microscopes not only afford the yet-unexplored electron energies from\n~0.5 to 30 keV providing optimum light-coupling efficiencies, but they also\noffer spacious and easily-configurable experimental chambers for extended and\ncascaded optical set-ups, potentially boasting thousands of photon-electron\ninteraction zones. Our results unleashes the full potential of quantum\nexperiments including electron wavepacket shaping and quantum computing with\nmultiple arithmetic operations and will allow imaging with low-energy electrons\nand attosecond time resolution.",
+        "author": [
+          {
+            "name": "Roy Shiloh"
+          },
+          {
+            "name": "Tomas Chlouba"
+          },
+          {
+            "name": "Peter Hommelhoff"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.128.235301",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "31",
@@ -286,7 +1073,48 @@
       "x": -281.4253,
       "y": -158.45137,
       "value": 12.228573,
-      "category": 2
+      "category": 2,
+      "data": {
+        "id": "http://arxiv.org/abs/1107.4759v1",
+        "updated": "2011-07-24T15:10:26Z",
+        "published": "2011-07-24T15:10:26Z",
+        "title": "Electrons surfing on a sound wave as a platform for quantum optics with\n  flying electrons",
+        "summary": "Electrons in a metal are indistinguishable particles that strongly interact\nwith other electrons and their environment. Isolating and detecting a single\nflying electron after propagation to perform quantum optics like experiments at\nthe single electron level is therefore a challenging task. Up to date, only few\nexperiments have been performed in a high mobility two-dimensional electron gas\nwhere the electron propagates almost ballistically. Flying electrons were\ndetected via the current generated by an ensemble of electrons and electron\ncorrelations were encrypted in the current noise. Here we demonstrate the\nexperimental realisation of high efficiency single electron source and single\nelectron detector for a quantum medium where a single electron is propagating\nisolated from the other electrons through a one-dimensional channel. The moving\npotential is excited by a surface acoustic wave, which carries the single\nelectron along the 1D-channel at a speed of 3\\mum/ns. When such a quantum\nchannel is placed between two quantum dots, a single electron can be\ntransported from one quantum dot to the other, which is several micrometres\napart, with a quantum efficiency of emission and detection of 96% and 92%,\nrespectively. Furthermore, the transfer of the electron can be triggered on a\ntimescale shorter than the coherence time T2* of GaAs spin qubits6. Our work\nopens new avenues to study the teleportation of a single electron spin and the\ndistant interaction between spatially separated qubits in a condensed matter\nsystem.",
+        "author": [
+          {
+            "name": "Sylvain Hermelin"
+          },
+          {
+            "name": "Shintaro Takada"
+          },
+          {
+            "name": "Michihisa Yamamoto"
+          },
+          {
+            "name": "Seigo Tarucha"
+          },
+          {
+            "name": "Andreas D. Wieck"
+          },
+          {
+            "name": "Laurent Saminadayar"
+          },
+          {
+            "name": "Christopher Bäuerle"
+          },
+          {
+            "name": "Tristan Meunier"
+          }
+        ],
+        "doi": "10.1038/nature10416",
+        "link": ["", "", ""],
+        "comment": "Total 25 pages. 12 pages main text, 4 figures, 5 pages supplementary\n  material",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "32",
@@ -295,7 +1123,31 @@
       "x": -122.41348,
       "y": 210.37503,
       "value": 4,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/2209.11806v1",
+        "updated": "2022-09-23T18:56:36Z",
+        "published": "2022-09-23T18:56:36Z",
+        "title": "Few-electron correlations after ultrafast photoemission from nanometric\n  needle tips",
+        "summary": "Free electrons are essential in such diverse applications as electron\nmicroscopes, accelerators, and photo-emission spectroscopy. Often, space charge\neffects of many electrons are a nuisance. Confined to extremely small\nspace-time dimensions, even two electrons can interact strongly. In this case,\nthe Coulomb repulsion can now be highly advantageous, because it leads to\nsurprisingly powerful electron-electron correlations, as we demonstrate here.\nWe show that femtosecond laser-emitted electrons from nanometric needle tips\nare highly anti-correlated in energy because of dynamic Coulomb repulsion, with\na visibility of $56\\,\\%$. We extract a mean energy splitting of $3.3\\,$eV and a\ncorrelation decay time of $82\\,$fs. Importantly, the energy-filtered electrons\ndisplay a sub-Poissonian number distribution with a second order correlation\nfunction as small as $g^{(2)} = 0.34$, implying that shot noise-reduced pulsed\nelectron beams can be realized based on simple energy filtering. Even heralded\nelectrons could become available for quantum-enhanced electron imaging\nprotocols. Furthermore, we also reach the strong-field regime of laser-driven\nelectron emission. We gain deep insights into how the electron correlations of\nthe different electron classes (direct vs. rescattered) are influenced by the\nstrong laser fields. Our work levels the field of quantum electron optics, with\ndirect ramifications for shot noise-reduced and quantum electron imaging as\nwell as direct measurements of correlated electrons from inside of strongly\ncorrelated matter.",
+        "author": [
+          {
+            "name": "Stefan Meier"
+          },
+          {
+            "name": "Jonas Heimerl"
+          },
+          {
+            "name": "Peter Hommelhoff"
+          }
+        ],
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "33",
@@ -304,7 +1156,30 @@
       "x": -234.6001,
       "y": -113.15067,
       "value": 6.742859,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/2210.09422v2",
+        "updated": "2023-06-12T19:22:45Z",
+        "published": "2022-10-17T20:41:26Z",
+        "title": "Excitation and Relaxation of Nonthermal Electron Energy Distributions in\n  Metals with Application to Gold",
+        "summary": "A semiempirical theory for the excitation and subsequent relaxation of\nnonthermal electrons is described. The theory, which is applicable to\nultrafast-laser excited metals, is based on the Boltzmann transport equation\nfor the carrier distribution function $f(\\epsilon,t)$ and includes\nelectron-phonon, electron-electron, and electron-photon scattering integrals in\nforms that explicitly depend on the electronic density of states.\nElectron-phonon coupling is treated by extending the theory of Allen [Phys.\nRev. Lett. 59, 1460 (1987)] to include highly-excited nonthermal electron\ndistributions, and is used to determine the energy transfer rate between a\nnonthermal electron subsystem and a thermal phonon subsystem. Electron-electron\nscattering is treated with a simple energy-conserving electron-electron\nscattering integral. The electron-photon integral assumes photon absorption is\nphonon assisted. We apply the theory to analyze prior ultrafast thermionic\nemission, two-color photoemission, and electronic inelastic light (Raman)\nscattering experiments on Au. These analyses show that getting the details of\n$f(\\epsilon,t)$ is necessary for proper interpretation of each experiment.\nTogether, the photoemission and Raman-scattering analyses indicate an electron\nexcited 1 eV above the Fermi level has an electron-electron scattering time in\nthe range of 25 to 55 fs.",
+        "author": [
+          {
+            "name": "D. M. Riffe"
+          },
+          {
+            "name": "Richard B. Wilson"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.107.214309",
+        "link": ["", "", ""],
+        "comment": "26 pages, 5 figures; 1 page Supplemental Material",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "34",
@@ -313,7 +1188,30 @@
       "x": -387.84915,
       "y": 58.7059,
       "value": 17.714287,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/9306038v1",
+        "updated": "1993-06-17T01:39:56Z",
+        "published": "1993-06-17T01:39:56Z",
+        "title": "Electron--Electron Scattering in Quantum Wires and it's Possible\n  Suppression due to Spin Effects",
+        "summary": "A microscopic picture of electron-electron pair scattering in single mode\nquantum wires is introduced which includes electron spin. A new source of\n`excess' noise for hot carriers is presented. We show that zero magnetic field\n`spin' splitting in quantum wires can lead to a dramatic `spin'-subband\ndependence of electron--electron scattering, including the possibility of\nstrong suppression. As a consequence extremely long electron coherence lengths\nand new spin-related phenomena are predicted. Since electron bands in III-V\nsemiconductor quantum wires are in general spin-split in zero applied magnetic\nfield, these new transport effects are of general importance.",
+        "author": [
+          {
+            "name": "Gerhard Fasol"
+          },
+          {
+            "name": "Hiroyuki Sakaki"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.70.3643",
+        "link": ["", "", ""],
+        "comment": "11 pages, LaTeX and APS-RevteX 2, Rep.No. GF66,Figures from author,\n  Physical Review Letters, scheduled for 7 June 1993",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "35",
@@ -322,7 +1220,26 @@
       "x": -338.2307,
       "y": 87.48405,
       "value": 17.714287,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/9312053v1",
+        "updated": "1993-12-14T14:57:15Z",
+        "published": "1993-12-14T14:57:15Z",
+        "title": "Accounting for both electron--lattice and electron--electron coupling in\n  conjugated polymers: minimum total energy calculations on the\n  Hubbard--Peierls hamiltonian",
+        "summary": "Minimum total energy calculations, which account for both electron--lattice\nand electron--electron interactions in conjugated polymers are performed for\nchains with up to eight carbon atoms. These calculations are motivated in part\nby recent experimental results on the spectroscopy of polyenes and conjugated\npolymers and shed light on the longstanding question of the relative importance\nof electron--lattice vs. electron--electron interactions in determining the\nproperties of these systems.",
+        "author": {
+          "name": "Giuseppe Rossi",
+          "affiliation": "Ford Research Laboratory"
+        },
+        "doi": "10.1103/PhysRevB.50.1268",
+        "link": ["", "", ""],
+        "comment": "6 pages, Plain TeX, FRL-PSD-93GR2",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "36",
@@ -331,7 +1248,40 @@
       "x": -453.26874,
       "y": 58.94648,
       "value": 17.714287,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/9703241v1",
+        "updated": "1997-03-27T20:43:31Z",
+        "published": "1997-03-27T20:43:31Z",
+        "title": "Periodic and Aperiodic Bunching in the Addition Spectra of Quantum Dot",
+        "summary": "We study electron addition spectra of quantum dots in a broad range of\nelectron occupancies starting from the first electron. Spectra for dots\ncontaining &lt;200 electrons reveal a surprising feature. Electron additions are\nnot evenly spaced in gate voltage. Rather, they group into bunches. With\nincreasing electron number the bunching evolves from occurring randomly to\nperiodically at about every fifth electron. The periodicity of the bunching and\nfeatures in electron tunneling rates suggest that the bunching is associated\nwith electron additions into spatially distinct regions within the dots.",
+        "author": [
+          {
+            "name": "N. B. Zhitenev",
+            "affiliation": "M.I.T."
+          },
+          {
+            "name": "R. C. Ashoori",
+            "affiliation": "M.I.T."
+          },
+          {
+            "name": "L. N. Pfeiffer",
+            "affiliation": "Bell Labs"
+          },
+          {
+            "name": "K. W. West",
+            "affiliation": "Bell Labs"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.79.2308",
+        "link": ["", "", ""],
+        "comment": "4 pages, 2 figures. Submitted to PRL",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "37",
@@ -340,7 +1290,26 @@
       "x": -386.44904,
       "y": 140.05937,
       "value": 17.714287,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0004065v2",
+        "updated": "2000-09-03T16:16:48Z",
+        "published": "2000-04-05T12:05:44Z",
+        "title": "Nonlinear voltage dependence of the shot noise in mesoscopic degenerate\n  conductors with strong electron-electron scattering",
+        "summary": "It is shown that measurements of zero-frequency shot-noise can provide\ninformation on electron-electron interaction, because the strong interaction\nresults in the nonlinear voltage dependence of the shot noise in metallic\nwires. This is due to the fact that the Wiedemann-Franz law is no longer valid\nin the case of considerable electron-electron interaction. The deviations from\nthis law increase the noise power and make it dependent strongly on the ratio\nof electron-electron and electron-impurity scattering rates.",
+        "author": {
+          "name": "E. G. Mishchenko"
+        },
+        "doi": "10.1103/PhysRevLett.85.4144",
+        "link": ["", "", ""],
+        "comment": "4 pages, 2 figures, revised version according to referee's comments",
+        "journal_ref": "Phys. Rev. Lett. 85, 4144 (2000).",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "38",
@@ -349,7 +1318,42 @@
       "x": -446.7876,
       "y": 123.38005,
       "value": 17.714287,
-      "category": 3
+      "category": 3,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0106586v1",
+        "updated": "2001-06-28T08:51:35Z",
+        "published": "2001-06-28T08:51:35Z",
+        "title": "Polaron and bipolaron formation in the Hubbard-Holstein model: role of\n  next-nearest neighbor electron hopping",
+        "summary": "The influence of next-nearest neighbor electron hopping, $t^{\\prime}$, on the\npolaron and bipolaron formation in a square Hubbard-Holstein model is\ninvestigated within a variational approach. The results for electron-phonon and\nelectron-electron correlation functions show that a negative value of\n$t^{\\prime}$ induces a strong anisotropy in the lattice distortions favoring\nthe formation of nearest neighbor intersite bipolaron. The role of\n$t^{\\prime}$, electron-phonon and electron-electron interactions is briefly\ndiscussed in view of the formation of charged striped domains.",
+        "author": [
+          {
+            "name": "G. De Filippis"
+          },
+          {
+            "name": "V. Cataudella"
+          },
+          {
+            "name": "G. Iadonisi"
+          },
+          {
+            "name": "V. Marigliano Ramaglia"
+          },
+          {
+            "name": "C. A. Perroni"
+          },
+          {
+            "name": "F. Ventriglia"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.64.155105",
+        "link": ["", "", ""],
+        "comment": "4 figures",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "39",
@@ -358,7 +1362,29 @@
       "x": 336.49738,
       "y": -269.55914,
       "value": 9.485714,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0207329v1",
+        "updated": "2002-07-12T21:12:56Z",
+        "published": "2002-07-12T21:12:56Z",
+        "title": "Tunneling through an Aharonov-Bohm ring -- effects of dephasing by\n  electron-electron interactions",
+        "summary": "We develop a non-perturbative numerical method to study a single electron\ntunneling through an Aharonov-Bohm ring in the presence of bound, interacting\nelectrons. Inelastic processes and spin-flip scattering are properly taken into\naccount. We show that electron-electron interactions described by the Hubbard\nHamiltonian lead to strong dephasing and we obtain high transmission\nprobability at Phi=pi even at small interaction strength. Depending on the\nmany-electron state on the ring, dephasing can occur in elastic or inelastic\nchannels with or without changing the spin of the scattering electron.",
+        "author": [
+          {
+            "name": "Rok Zitko"
+          },
+          {
+            "name": "Janez Bonca"
+          }
+        ],
+        "comment": "5 pages, 4 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "40",
@@ -367,7 +1393,30 @@
       "x": 29.187843,
       "y": -460.13132,
       "value": 4,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0401428v1",
+        "updated": "2004-01-22T14:17:31Z",
+        "published": "2004-01-22T14:17:31Z",
+        "title": "Pairing in Cu-O Models: Clues of Joint Electron-Phonon and\n  Electron-Electron Interactions",
+        "summary": "We discuss a many-electron Hamiltonian with Hubbard-like repulsive\ninteraction and linear coupling to the phonon branches, having the Cu-O plane\nof the superconducting cuprates as a paradigm. A canonical transformation\nextracts an effective two-body problem from the many-body theory. As a\nprototype system we study the $\\cu$ cluster, which yields electronic pairing in\nthe Hubbard model; moreover, a standard treatment of the Jahn-Teller effect\npredicts distortions that destroy electronic pairing. Remarkably, calculations\nthat keep all the electronic spectrum into account show that vibrations are\nlikely to be synergic with electronic pairing, if the coupling to\nhalf-breathing modes predominates, as experiments suggest.",
+        "author": [
+          {
+            "name": "Enrico Perfetto"
+          },
+          {
+            "name": "Michele Cini"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.69.092508",
+        "link": ["", "", ""],
+        "comment": "4 pages, 3 figures, accepted by Phys. Rev. B",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "41",
@@ -376,7 +1425,25 @@
       "x": 238.36697,
       "y": -210.00926,
       "value": 31.428574,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0401577v1",
+        "updated": "2004-01-28T14:00:28Z",
+        "published": "2004-01-28T14:00:28Z",
+        "title": "Electron-electron scattering effects on the Full Counting Statistics of\n  Mesoscopic Conductors",
+        "summary": "In the hot electron regime, electron-electron scattering strongly modifies\nnot only the shot noise but also the full counting statistics. We employ a\nmethod based on a stochastic path integral to calculate the counting statistics\nof two systems in which noise in the hot electron regime has been\nexperimentally measured. We give an analytical expression for the counting\nstatistics of a chaotic cavity and find that heating due to electron-electron\nscattering renders the distribution of transmitted charge symmetric in the shot\nnoise limit. We also discuss the frequency dispersion of the third order\ncorrelation function and present numerical calculations for the statistics of\ndiffusive wires in the hot electron regime.",
+        "author": {
+          "name": "S. Pilgram"
+        },
+        "doi": "10.1103/PhysRevB.69.115315",
+        "link": ["", "", ""],
+        "journal_ref": "Phys. Rev. B 69, 115315 (2004)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "42",
@@ -385,7 +1452,26 @@
       "x": 189.69513,
       "y": -346.50662,
       "value": 9.485714,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/hep-ex/0307015v1",
+        "updated": "2003-07-07T17:46:39Z",
+        "published": "2003-07-07T17:46:39Z",
+        "title": "Multi-Electron Production at High Transverse Momenta in ep Collisions at\n  HERA",
+        "summary": "Multi-electron production is studied at high electron transverse momentum in\npositron- and electron-proton collisions using the H1 detector at HERA. The\ndata correspond to an integrated luminosity of 115 pb-1. Di-electron and\ntri-electron event yields are measured. Cross sections are derived in a\nrestricted phase space region dominated by photon-photon collisions. In general\ngood agreement is found with the Standard Model predictions. However, for\nelectron pair invariant masses above 100 GeV, three di-electron events and\nthree tri-electron events are observed, compared to Standard Model expectations\nof 0.30 \\pm 0.04 and 0.23 \\pm 0.04, respectively.",
+        "author": {
+          "name": "H1 Collaboration"
+        },
+        "doi": "10.1140/epjc/s2003-01326-x",
+        "link": ["", "", ""],
+        "comment": "23 pages, 8 figures and 4 tables",
+        "journal_ref": "Eur.Phys.J.C31:17-29,2003",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "43",
@@ -394,7 +1480,30 @@
       "x": -187.00418,
       "y": -145.02663,
       "value": 9.485714,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/physics/0003073v1",
+        "updated": "2000-03-24T21:57:24Z",
+        "published": "2000-03-24T21:57:24Z",
+        "title": "Temporary Acceleration of Electrons While Inside an Intense\n  Electromagnetic Pulse",
+        "summary": "A free electron can temporarily gain a very significant amount of energy if\nit is overrun by an intense electromagnetic wave. In principle, this process\nwould permit large enhancements in the center-of-mass energy of\nelectron-electron, electron-positron and electron-photon interactions if these\ntake place in the presence of an intense laser beam. Practical considerations\nseverely limit the utility of this concept for contemporary lasers incident on\nrelativistic electrons. A more accessible laboratory phenomenon is\nelectron-positron production via an intense laser beam incident on a gas.\nIntense electromagnetic pulses of astrophysical origin can lead to very\nenergetic photons via bremsstrahlung of temporarily accelerated electrons.",
+        "author": [
+          {
+            "name": "Kirk T. McDonald"
+          },
+          {
+            "name": "Konstantine Shmakov"
+          }
+        ],
+        "doi": "10.1103/PhysRevSTAB.2.121301",
+        "link": ["", "", ""],
+        "journal_ref": "Phys.Rev.ST Accel.Beams 2:121301,1999",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "44",
@@ -403,7 +1512,31 @@
       "x": -252.99521,
       "y": 129.87549,
       "value": 6.742859,
-      "category": 4
+      "category": 4,
+      "data": {
+        "id": "http://arxiv.org/abs/0805.4276v1",
+        "updated": "2008-05-28T07:48:17Z",
+        "published": "2008-05-28T07:48:17Z",
+        "title": "Kink structure in the electronic dispersion of high-Tc superconductors\n  from the electron-phonon interaction",
+        "summary": "We investigate the electronic dispersion of high-Tc superconductor on the\nbasis of the two-dimensional three-band Hubbard model with the electron-phonon\ninteraction together with the strong electron-electron interaction. In our\nmodel, it is shown across the hole-doped region of high-Tc superconductor that\nthe electron-phonon interaction makes a dispersion kink, observed along the\nnodal direction, and that the small isotope effect appears on the electronic\ndispersion.",
+        "author": [
+          {
+            "name": "Shigeru Koikegami"
+          },
+          {
+            "name": "Yoshihiro Aiura"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.77.184519",
+        "link": ["", "", ""],
+        "comment": "15 pages, 8 figures. to be published in Phys. Rev. B 77, No.18 (2008)",
+        "journal_ref": "Phys. Rev. B 77 (2008) 184519",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "45",
@@ -412,7 +1545,24 @@
       "x": -296.07935,
       "y": 163.11964,
       "value": 4,
-      "category": 4
+      "category": 4,
+      "data": {
+        "id": "http://arxiv.org/abs/0806.0310v3",
+        "updated": "2008-08-16T12:40:56Z",
+        "published": "2008-06-02T15:22:08Z",
+        "title": "Electron and phonon correlations in systems of one-dimensional electrons\n  coupled to phonons",
+        "summary": "Electron and phonon correlations in systems of one-dimensional electrons\ncoupled to phonons are studied at low temperatures by emphasizing on the effect\nof electron-phonon backward scattering. It is found that the $2k_F$-wave\ncomponents of the electron density and phonon displacement field share the same\ncorrelations. Both correlations are quasi-long-ranged for a single conducting\nchain coupled to one-dimensional or three-dimensional phonons, and they are\nlong-ranged for repulsive electron-electron interactions for a\nthree-dimensional array of parallel one-dimensional conducting chains coupled\nto three-dimensional phonons.",
+        "author": {
+          "name": "Leiming Chen"
+        },
+        "doi": "10.1103/PhysRevB.78.195119",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "46",
@@ -421,7 +1571,34 @@
       "x": 550.3201,
       "y": 522.4031,
       "value": 4,
-      "category": 5
+      "category": 5,
+      "data": {
+        "id": "http://arxiv.org/abs/0806.0436v1",
+        "updated": "2008-06-03T05:29:47Z",
+        "published": "2008-06-03T05:29:47Z",
+        "title": "Ballistic Hot Electron Transport in Graphene",
+        "summary": "We theoretically study the inelastic scattering rate and the carrier mean\nfree path for energetic hot electrons in graphene, including both\nelectron-electron and electron-phonon interactions. Taking account of optical\nphonon emission and electron-electron scattering, we find that the inelastic\nscattering time $\\tau \\sim 10^{-2}-10^{-1} \\mathrm{ps}$ and the mean free path\n$l \\sim 10-10^2 \\mathrm{nm}$ for electron densities $n = 10^{12}-10^{13}\n\\mathrm{cm}^{-2}$. In particular, we find that the mean free path exhibits a\nfinite jump at the phonon energy $200 \\mathrm{meV}$ due to electron-phonon\ninteraction. Our results are directly applicable to device structures where\nballistic transport is relevant with inelastic scattering dominating over\nelastic scattering.",
+        "author": [
+          {
+            "name": "Wang-Kong Tse"
+          },
+          {
+            "name": "E. H. Hwang"
+          },
+          {
+            "name": "S. Das Sarma"
+          }
+        ],
+        "doi": "10.1063/1.2956669",
+        "link": ["", "", ""],
+        "comment": "4 pages",
+        "journal_ref": "Appl. Phys. Lett. 93, 023128 (2008)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "47",
@@ -430,7 +1607,35 @@
       "x": 488.13535,
       "y": 356.8573,
       "value": 6.742859,
-      "category": 5
+      "category": 5,
+      "data": {
+        "id": "http://arxiv.org/abs/0902.3875v1",
+        "updated": "2009-02-23T09:30:29Z",
+        "published": "2009-02-23T09:30:29Z",
+        "title": "Spin dynamics of electrons in the first excited subband of a\n  high-mobility low-density 2D electron system",
+        "summary": "We report on time-resolved Kerr rotation measurements of spin coherence of\nelectrons in the first excited subband of a high-mobility low-density\ntwo-dimensional electron system in a GaAs/Al0.35Ga0.65As heterostructure. While\nthe transverse spin lifetime (T2*) of electrons decreases monotonically with\nincreasing magnetic field, it has a non-monotonic dependence on the\ntemperature, with a peak value of 596 ps at 36 K, indicating the effect of\ninter-subband electron-electron scattering on the electron spin relaxation. The\nspin lifetime may be long enough for potential device application with\nelectrons in excited subbands.",
+        "author": [
+          {
+            "name": "Haihui Luo"
+          },
+          {
+            "name": "Xuan Qian"
+          },
+          {
+            "name": "Xuezhong Ruan"
+          },
+          {
+            "name": "Yang Ji"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.80.193301",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "48",
@@ -439,7 +1644,30 @@
       "x": 387.89572,
       "y": 110.462326,
       "value": 61.600006,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/1103.6195v1",
+        "updated": "2011-03-31T14:28:49Z",
+        "published": "2011-03-31T14:28:49Z",
+        "title": "Quantum description and properties of electrons emitted from pulsed\n  nanotip electron sources",
+        "summary": "We present a quantum calculation of the electron degeneracy for electron\nsources. We explore quantum interference of electrons in the temporal and\nspatial domain and demonstrate how it can be utilized to characterize a pulsed\nelectron source. We estimate effects of Coulomb repulsion on two-electron\ninterference and show that currently available nano tip pulsed electron sources\noperate in the regime where the quantum nature of electrons can be made\ndominant.",
+        "author": [
+          {
+            "name": "Pavel Lougovski"
+          },
+          {
+            "name": "Herman Batelaan"
+          }
+        ],
+        "doi": "10.1103/PhysRevA.84.023417",
+        "link": ["", "", ""],
+        "journal_ref": "Phys. Rev. A 84, 023417 (2011)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": true
+      }
     },
     {
       "id": "49",
@@ -448,7 +1676,40 @@
       "x": 126.4831,
       "y": 68.10622,
       "value": 20.457146,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1510.05299v1",
+        "updated": "2015-10-18T20:01:58Z",
+        "published": "2015-10-18T20:01:58Z",
+        "title": "Quasiparticle Mass Enhancement and Fermi Surface Shape Modification in\n  Oxide Two-Dimensional Electron Gases",
+        "summary": "We propose a model intended to qualitatively capture the electron-electron\ninteraction physics of two-dimensional electron gases formed near\ntransition-metal oxide heterojunctions containing $t_{2g}$ electrons with a\ndensity much smaller than one electron per metal atom. Two-dimensional electron\nsystems of this type can be described perturbatively using a $GW$ approximation\nwhich predicts that Coulomb interactions enhance quasiparticle effective masses\nmore strongly than in simple two-dimensional electron gases, and that they\nreshape the Fermi surface, reducing its anisotropy.",
+        "author": [
+          {
+            "name": "John R. Tolsma"
+          },
+          {
+            "name": "Alessandro Principi"
+          },
+          {
+            "name": "Reza Asgari"
+          },
+          {
+            "name": "Marco Polini"
+          },
+          {
+            "name": "Allan H. MacDonald"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.93.045120",
+        "link": ["", "", ""],
+        "comment": "14+1 pages, 7 figures",
+        "journal_ref": "Phys. Rev. B 93, 045120 (2016)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "50",
@@ -457,7 +1718,38 @@
       "x": 127.07365,
       "y": -113.05923,
       "value": 6.742859,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1702.00237v1",
+        "updated": "2017-02-01T13:10:38Z",
+        "published": "2017-02-01T13:10:38Z",
+        "title": "Some Aspects of Electron Dynamics in Electron Cyclotron Resonance Ion\n  Sources",
+        "summary": "Electron dynamics in Electron Cyclotron Resonance Ion Source is numerically\nsimulated by using Particle-In-Cell code combined with simulations of the ion\ndynamics. Mean electron energies are found to be around 70 keV close to values\nthat are derived from spectra of X-ray emission out of the source. Electron\nlife time is defined by losses of low-energy electrons created in ionizing\ncollisions; the losses are regulated by electron heating rate, which depends on\nmagnitude of the microwave electric field. Changes in ion confinement with\nvariations in the microwave electric field and gas flow are simulated.\nInfluence of electron dynamics on the afterglow and two-frequency heating\neffects is discussed.",
+        "author": [
+          {
+            "name": "V. Mironov"
+          },
+          {
+            "name": "S. Bogomolov"
+          },
+          {
+            "name": "A. Bondarchenko"
+          },
+          {
+            "name": "A. Efremov"
+          },
+          {
+            "name": "V. Loginov"
+          }
+        ],
+        "doi": "10.1088/1361-6595/aa7296",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "51",
@@ -466,7 +1758,30 @@
       "x": 162.63559,
       "y": 117.6565,
       "value": 20.457146,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1705.03183v3",
+        "updated": "2018-04-23T17:38:48Z",
+        "published": "2017-05-09T05:30:57Z",
+        "title": "Wigner distributions for an electron",
+        "summary": "We study the Wigner distributions for a physical electron, which reveal the\nmultidimensional images of the electron. The physical electron is considered as\na composite system of a bare electron and photon. The Wigner distributions for\nunpolarized, longitudinally polarized and transversely polarized electron are\npresented in transverse momentum plane as well as in impact parameter plane.\nThe spin-spin correlations between the bare electron and the physical electron\nare discussed. We also evaluate all the leading twist generalized transverse\nmomentum distributions (GTMDs) for electron.",
+        "author": [
+          {
+            "name": "Narinder Kumar"
+          },
+          {
+            "name": "Chandan Mondal"
+          }
+        ],
+        "doi": "10.1016/j.nuclphysb.2018.04.014",
+        "link": ["", "", ""],
+        "comment": "27 pages, 18 figures, text modified, version accepted in Nuclear\n  Physics B",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "52",
@@ -475,7 +1790,24 @@
       "x": 353.66415,
       "y": -205.89165,
       "value": 6.742859,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1801.08963v1",
+        "updated": "2018-01-26T19:55:30Z",
+        "published": "2018-01-26T19:55:30Z",
+        "title": "Electron Multi-Beams (Electron Grids, Electron Lattices and Electron\n  Grates): New Elements for Accelerators",
+        "summary": "Since the initial proposal in 1990s, the method of electron lenses has been\nsuccessfully developed and employed at the high energy particle colliders, like\nTevatron and RHIC. Here we propose a new set of electron multi beam elements\n(electron grids, electron lattices, electron grates and other) which employ\nmany beams in various spatial configurations, with possible time varying\ncurrents. We present major principles of operation and generation of such\nsystems and briefly discuss a set of possible applications in accelerators.",
+        "author": {
+          "name": "Vladimir Shiltsev"
+        },
+        "comment": "8 pages, 5 Figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "53",
@@ -484,7 +1816,31 @@
       "x": 165.43939,
       "y": 339.7736,
       "value": 4,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1306.3849v2",
+        "updated": "2014-11-07T17:57:06Z",
+        "published": "2013-06-17T13:24:22Z",
+        "title": "Metastable electron-pair states in a two-dimensional crystal",
+        "summary": "We study possible quantum states of two correlated electrons in a\ntwo-dimensional crystal and find a metastable energy band of the electron pair\nbetween the two lowest single-electron bands. These metastable states result\nfrom the interplay of electron correlations and the strength of the crystal\npotential. The two paired electrons are bound in the same unit cell in relative\ncoordinates with an average distance between them about one third of the\ncrystal period. Furthermore, we show how such electron-pairs can be stabilized\nin a many-electron system.",
+        "author": [
+          {
+            "name": "G. -Q. Hai"
+          },
+          {
+            "name": "L. K. Castelano"
+          }
+        ],
+        "doi": "10.1088/0953-8984/26/11/115502",
+        "link": ["", "", ""],
+        "comment": "5 pages, 3 figures",
+        "journal_ref": "J. Phys.: Condens. Matter 26, 115502 (2014)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "54",
@@ -493,7 +1849,24 @@
       "x": 137.69348,
       "y": 196.1069,
       "value": 12.228573,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/1508.04168v1",
+        "updated": "2015-08-17T22:19:39Z",
+        "published": "2015-08-17T22:19:39Z",
+        "title": "Investigation of Vortex Structures in Gas-Discharge Nonneutral Electron\n  Plasma: III. Pulse Ejection of Electrons at the Formation and Radial\n  Oscillations of Vortex Structure",
+        "summary": "The results of experimental investigations of electron ejection from\ngas-discharge nonneutral electron plasma at the formation and radial\noscillations of vortex structure have been presented. The electrons are\ninjected from the vortex structure and the adjacent region of electron sheath\nin the form of pulses the duration and periodicity of which are determined by\nthe processes of evolution and dynamics of this structure. The possible\nmechanisms of pulse ejection of electrons are considered. The influence of\nelectron ejection on other processes in discharge electron sheath is analyzed.",
+        "author": {
+          "name": "N. A. Kervalishvili"
+        },
+        "comment": "9 pages, 12 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "55",
@@ -502,7 +1875,32 @@
       "x": 206.44687,
       "y": -13.805411,
       "value": 53.37143,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/2011.11544v1",
+        "updated": "2020-11-23T16:58:03Z",
+        "published": "2020-11-23T16:58:03Z",
+        "title": "Diffusion regime of electron-electron collisions in weakly ionized\n  plasmas",
+        "summary": "We consider weakly ionized plasma where frequent elastic scattering of\nelectrons on neutrals change the individual acts and the rate of\nelectron-electron collisions significantly. In this case, the kinetics of\nelectron thermalization is very different from that in fully ionized plasma.\nThe colliding electrons diffuse because of fast scattering on neutrals. We\ndemonstrate how a proper account of this diffusion enables one to estimate the\ncharacteristic time of electron thermalization. We also present a rigorous\nderivation of the kinetic equation for electrons by using Bogolyubov method\nbased on Liouville equations for multi-particle distribution functions.",
+        "author": [
+          {
+            "name": "B. Breizman"
+          },
+          {
+            "name": "G. Stupakov"
+          },
+          {
+            "name": "G. Vekstein"
+          }
+        ],
+        "doi": "10.1063/5.0038623",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": true
+      }
     },
     {
       "id": "56",
@@ -511,7 +1909,26 @@
       "x": 194.82993,
       "y": 224.78036,
       "value": 6.742859,
-      "category": 6
+      "category": 6,
+      "data": {
+        "id": "http://arxiv.org/abs/2306.04075v2",
+        "updated": "2023-10-30T04:10:41Z",
+        "published": "2023-06-07T00:32:56Z",
+        "title": "Electron-hole dichotomy and enhancement of thermoelectric power factor\n  by electron-hole-asymmetric relaxation time: a model study on a two-valley\n  system with strong intervalley scattering",
+        "summary": "The role of electron-phonon scattering in thermoelectric transport has been\npaid much attention, especially in multivalley systems. By investigating a\ntwo-valley model with electron-phonon coupling, we find three electron\ntransport regimes realized by electron-hole asymmetry of electron relaxation\ntime due to the strong intervalley scattering. Seebeck coefficient denotes an\nelectron-hole dichotomy due to this asymmetry. Also, the strong intervalley\nscattering can enhance power factor. Our finding sheds light on unexplored\nthermoelectric transport under the strong electron-phonon scattering.",
+        "author": {
+          "name": "Masayuki Ochi"
+        },
+        "doi": "10.1103/PhysRevB.108.195139",
+        "link": ["", "", ""],
+        "comment": "10 pages, 7 figures",
+        "journal_ref": "Phys. Rev. B 108, 195139 (2023)",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "57",
@@ -520,7 +1937,52 @@
       "x": 597.6618,
       "y": 135.18481,
       "value": 31.428574,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0002253v1",
+        "updated": "2000-02-16T17:12:19Z",
+        "published": "2000-02-16T17:12:19Z",
+        "title": "Effects of Electron-Electron Scattering on Electron-Beam Propagation in\n  a Two-Dimensional Electron-Gas",
+        "summary": "We have studied experimentally and theoretically the influence of\nelectron-electron collisions on the propagation of electron beams in a\ntwo-dimensional electron gas for excess injection energies ranging from zero up\nto the Fermi energy. We find that the detector signal consists of\nquasiballistic electrons, which either have not undergone any electron-electron\ncollisions or have only been scattered at small angles. Theoretically, the\nsmall-angle scattering exhibits distinct features that can be traced back to\nthe reduced dimensionality of the electron system. A number of nonlinear\neffects, also related to the two-dimensional character of the system, are\ndiscussed. In the simplest situation, the heating of the electron gas by the\nhigh-energy part of the beam leads to a weakening of the signal of\nquasiballistic electrons and to the appearance of thermovoltage. This results\nin a nonmonotonic dependence of the detector signal on the intensity of the\ninjected beam, as observed experimentally.",
+        "author": [
+          {
+            "name": "H. Predel",
+            "affiliation": "Physikalisches Institut, University Wuerzburg, Germany"
+          },
+          {
+            "name": "H. Buhmann",
+            "affiliation": "Physikalisches Institut, University Wuerzburg, Germany"
+          },
+          {
+            "name": "L. W. Molenkamp",
+            "affiliation": "Physikalisches Institut, University Wuerzburg, Germany"
+          },
+          {
+            "name": "R. N. Gurzhi",
+            "affiliation": "B. Verkin Institute for Low Temperatures Physics &amp; Engineering, Kharkov, Ukraine"
+          },
+          {
+            "name": "A. N. Kalinenko",
+            "affiliation": "B. Verkin Institute for Low Temperatures Physics &amp; Engineering, Kharkov, Ukraine"
+          },
+          {
+            "name": "A. I. Kopeliovich",
+            "affiliation": "B. Verkin Institute for Low Temperatures Physics &amp; Engineering, Kharkov, Ukraine"
+          },
+          {
+            "name": "A. V. Yanovsky",
+            "affiliation": "B. Verkin Institute for Low Temperatures Physics &amp; Engineering, Kharkov, Ukraine"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.62.2057",
+        "link": ["", "", ""],
+        "comment": "9 pages, 7 figures",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "58",
@@ -529,7 +1991,33 @@
       "x": 355.78366,
       "y": -74.882454,
       "value": 42.4,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0302278v3",
+        "updated": "2003-10-06T21:09:01Z",
+        "published": "2003-02-14T18:31:42Z",
+        "title": "Effects of Electron-Electron and Electron-Phonon Interactions in Weakly\n  Disordered Conductors and Heterostuctures",
+        "summary": "We investigate quantum corrections to the conductivity due to the\ninterference of electron-electron (electron-phonon) scattering and elastic\nelectron scattering in weakly disordered conductors. The electron-electron\ninteraction results in a negative $T^2 \\ln T$-correction in a 3D conductor. In\na quasi-two-dimensional conductor, $d &lt; v_F/T$ ($d$ is the thickness, $v_F$ is\nthe Fermi velocity), with 3D electron spectrum this correction is linear in\ntemperature and differs from that for 2D electrons (G. Zala et. al., Phys.\nRev.B {\\bf 64}, 214204 (2001)) by a numerical factor. In a\nquasi-one-dimensional conductor, temperature-dependent correction is\nproportional to $T^2$. The electron interaction via exchange of virtual phonons\nalso gives $T^2$-correction. The contribution of thermal phonons interacting\nwith electrons via the screened deformation potential results in $T^4$-term and\nvia unscreened deformation potential results in $T^2$-term. The interference\ncontributions dominate over pure electron-phonon scattering in a wide\ntemperature range, which extends with increasing disorder.",
+        "author": [
+          {
+            "name": "A. Sergeev"
+          },
+          {
+            "name": "M. Yu. Reizer"
+          },
+          {
+            "name": "V. Mitin"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.69.075310",
+        "link": ["", "", ""],
+        "comment": "6 pages, 2figures",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "59",
@@ -538,7 +2026,26 @@
       "x": 515.2961,
       "y": -46.167564,
       "value": 31.428574,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0504013v1",
+        "updated": "2005-04-01T07:01:44Z",
+        "published": "2005-04-01T07:01:44Z",
+        "title": "Why holes are not like electrons. II. The role of the electron-ion\n  interaction",
+        "summary": "In recent work, we discussed the difference between electrons and holes in\nenergy band in solids from a many-particle point of view, originating in the\nelectron-electron interaction, and argued that it has fundamental consequences\nfor superconductivity. Here we discuss the fact that there is also a\nfundamental difference between electrons and holes already at the single\nparticle level, arising from the electron-ion interaction. The difference\nbetween electrons and holes due to this effect parallels the difference due to\nelectron-electron interactions: {\\it holes are more dressed than electrons}. We\npropose that superconductivity originates in 'undressing' of carriers from\n$both$ electron-electron and electron-ion interactions, and that both aspects\nof undressing have observable consequences.",
+        "author": {
+          "name": "J. E. Hirsch"
+        },
+        "doi": "10.1103/PhysRevB.71.104522",
+        "link": ["", "", ""],
+        "comment": "Continuation of Phys.Rev.B65, 184502 (2002) = cond-mat/0109385 (2001)",
+        "journal_ref": "Phys.Rev. B71, 104522 (2005)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "60",
@@ -547,7 +2054,34 @@
       "x": 614.29285,
       "y": -69.3104,
       "value": 25.942856,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0507226v2",
+        "updated": "2005-10-11T07:00:02Z",
+        "published": "2005-07-10T05:34:55Z",
+        "title": "Density-matrix renormalization group study of pairing when\n  electron-electron and electron-phonon interactions coexist: effect of the\n  electronic band structure",
+        "summary": "Density-matrix renormalization group is used to study the pairing when both\nof electron-electron and electron-phonon interactions are strong in the\nHolstein-Hubbard model at half-filling in a region intermediate between the\nadiabatic (Migdal's) and antiadiabatic limits. We have found: (i) the pairing\ncorrelation obtained for a one-dimensional system is nearly degenerate with the\nCDW correlation in a region where the phonon-induced attraction is comparable\nwith the electron-electron repulsion, but (ii) pairing becomes dominant when we\ndestroy the electron-hole symmetry in a trestle lattice. This provides an\ninstance in which pairing can arise, in a lattice-structure dependent manner,\nfrom coexisting electron-electron and electron-phonon interactions.",
+        "author": [
+          {
+            "name": "Masaki Tezuka"
+          },
+          {
+            "name": "Ryotaro Arita"
+          },
+          {
+            "name": "Hideo Aoki"
+          }
+        ],
+        "doi": "10.1103/PhysRevLett.95.226401",
+        "link": ["", "", ""],
+        "comment": "4 pages, 3 figures; to appear in Phys. Rev. Lett",
+        "journal_ref": "Phys. Rev. Lett. 95, 226401 (2005)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "61",
@@ -556,7 +2090,64 @@
       "x": 550.1917,
       "y": -128.17537,
       "value": 31.428574,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/1602.06029v1",
+        "updated": "2016-02-19T02:30:50Z",
+        "published": "2016-02-19T02:30:50Z",
+        "title": "Tunable electron-electron interactions in LaAlO3/SrTiO3 nanostructures",
+        "summary": "The interface between the two complex oxides LaAlO3 and SrTiO3 has remarkable\nproperties that can be locally reconfigured between conducting and insulating\nstates using a conductive atomic force microscope. Prior investigations of\nsketched quantum dot devices revealed a phase in which electrons form pairs,\nimplying a strongly attractive electron-electron interaction. Here, we show\nthat these devices with strong electron-electron interactions can exhibit a\ngate-tunable transition from a pair-tunneling regime to a single-electron\n(Andreev bound state) tunneling regime where the interactions become repulsive.\nThe electron-electron interaction sign change is associated with a Lifshitz\ntransition where the dxz and dyz bands start to become occupied. This\nelectronically tunable electron-electron interaction, combined with the\nnanoscale reconfigurability of this system, provides an interesting starting\npoint towards solid-state quantum simulation.",
+        "author": [
+          {
+            "name": "Guanglei Cheng"
+          },
+          {
+            "name": "Michelle Tomczyk"
+          },
+          {
+            "name": "Alexandre B. Tacla"
+          },
+          {
+            "name": "Hyungwoo Lee"
+          },
+          {
+            "name": "Shicheng Lu"
+          },
+          {
+            "name": "Josh P. Veazey"
+          },
+          {
+            "name": "Mengchen Huang"
+          },
+          {
+            "name": "Patrick Irvin"
+          },
+          {
+            "name": "Sangwoo Ryu"
+          },
+          {
+            "name": "Chang-Beom Eom"
+          },
+          {
+            "name": "Andrew Daley"
+          },
+          {
+            "name": "David Pekker"
+          },
+          {
+            "name": "Jeremy Levy"
+          }
+        ],
+        "doi": "10.1103/PhysRevX.6.041042",
+        "link": ["", "", ""],
+        "comment": "25 pages, 7 figures",
+        "journal_ref": "Phys. Rev. X 6, 041042 (2016)",
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "62",
@@ -565,7 +2156,29 @@
       "x": 436.17184,
       "y": -12.7286825,
       "value": 36.91429,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/1602.07484v2",
+        "updated": "2018-04-02T13:37:29Z",
+        "published": "2016-02-24T12:40:54Z",
+        "title": "New many-particle system consisting of electron pairs and holes in a\n  two-dimensional crystal",
+        "summary": "When atoms are organized into a crystal, the single-electron energy levels of\nindividual atoms form energy bands. However, there also exist electron-pair\nstates in atoms. We found previously that the counterpart of these\nelectron-pair states of individual atoms may survive in a two-dimensional\nsquare-lattice crystal. When the amplitude of the crystal potential is larger\nthan a certain value, a metastable electron-pair band arises between the two\nlowest single-electron energy bands. In this paper, we demonstrate that the\nmany-particle exchange-correlation corrections renormalize the energy bands and\nmay stabilize the electron pairs for certain hole and electron-pair densities\nin the two-dimensional crystal. Therefore, depending upon the crystal potential\nand free carrier densities, there may exist a new many-particle system\nconsisting of electron pairs and holes. Furthermore, we calculate the\ncharge-density excitation spectrum in this new many-particle system.",
+        "author": [
+          {
+            "name": "Guo-Qiang Hai"
+          },
+          {
+            "name": "Ladir Cândido"
+          }
+        ],
+        "comment": "In this manuscript, we dealt with a system with holes in a\n  single-electron band interacting with electron pairs. We found that the way\n  we introduced the hole states was inaccurate. We recommend arXiv:1802.06593\n  for a system with single electrons and electron pairs",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "63",
@@ -574,7 +2187,38 @@
       "x": 602.55225,
       "y": 16.421427,
       "value": 34.17143,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/2001.01144v1",
+        "updated": "2020-01-05T00:31:44Z",
+        "published": "2020-01-05T00:31:44Z",
+        "title": "Nanostructured-membrane electron phase plates",
+        "summary": "Electron beams can acquire designed phase modulations by passing through\nnanostructured material phase plates. These phase modulations enable electron\nwavefront shaping and benefit electron microscopy, spectroscopy, lithography,\nand interferometry. However, in the fabrication of electron phase plates, the\ntypically used focused-ion-beam-milling method limits the fabrication\nthroughput and hence the active area of the phase plates. Here, we fabricated\nlarge-area electron phase plates with electron-beam lithography and\nreactive-ion-etching. The phase plates are characterized by electron\ndiffraction in transmission electron microscopes with various electron\nenergies, as well as diffractive imaging in a scanning electron microscope. We\nfound the phase plates could produce a null in the center of the bright-field\nbased on coherent interference of diffractive beams. Our work adds capabilities\nto the fabrication of electron phase plates. The nullification of the direct\nbeam and the tunable diffraction efficiency demonstrated here also paves the\nway towards novel dark-field electron-microscopy techniques and tunable\nelectron phase plates.",
+        "author": [
+          {
+            "name": "Yujia Yang"
+          },
+          {
+            "name": "Chung-Soo Kim"
+          },
+          {
+            "name": "Richard G. Hobbs"
+          },
+          {
+            "name": "Phillip D. Keathley"
+          },
+          {
+            "name": "Karl K. Berggren"
+          }
+        ],
+        "doi": "10.1016/j.ultramic.2020.113053",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ["", "", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "64",
@@ -583,7 +2227,32 @@
       "x": 455.81955,
       "y": -115.45826,
       "value": 36.91429,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/1610.03789v1",
+        "updated": "2016-10-12T17:02:25Z",
+        "published": "2016-10-12T17:02:25Z",
+        "title": "Suprathermal electron distributions in the solar transition region",
+        "summary": "Suprathermal tails are a common feature of solar wind electron velocity\ndistributions, and are expected in the solar corona. From the corona,\nsuprathermal electrons can propagate through the steep temperature gradient of\nthe transition region towards the chromosphere, and lead to non-Maxwellian\nelectron velocity distribution functions (VDFs) with pronounced suprathermal\ntails. We calculate the evolution of a coronal electron distribution through\nthe transition region in order to quantify the suprathermal electron population\nthere. A kinetic model for electrons is used which is based on solving the\nBoltzmann-Vlasov equation for electrons including Coulomb collisions with both\nions and electrons. Initial and chromospheric boundary conditions are\nMaxwellian VDFs with densities and temperatures based on a background fluid\nmodel. The coronal boundary condition has been adopted from earlier studies of\nsuprathermal electron formation in coronal loops. The model results show the\npresence of strong suprathermal tails in transition region electron VDFs,\nstarting at energies of a few 10 eV. Above electron energies of 600 eV,\nelectrons can traverse the transition region essentially collision-free. The\npresence of strong suprathermal tails in transition region electron VDFs shows\nthat the assumption of local thermodynamic equilibrium is not justified there.\nThis has a significant impact on ionization dynamics, as is shown in a\ncompanion paper.",
+        "author": [
+          {
+            "name": "C. Vocks"
+          },
+          {
+            "name": "E. Dzifcakova"
+          },
+          {
+            "name": "G. Mann"
+          }
+        ],
+        "doi": "10.1051/0004-6361/201629209",
+        "link": ["", "", ""],
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "65",
@@ -592,7 +2261,30 @@
       "x": 516.40784,
       "y": 47.242233,
       "value": 34.17143,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/2203.05183v2",
+        "updated": "2022-04-19T12:40:09Z",
+        "published": "2022-03-10T06:31:55Z",
+        "title": "Viscosity Enhancement by Electron-Hole Collisions in Dirac Electron\n  Fluid",
+        "summary": "Rejuvenation of hydrodynamic transport in solids provides a new window to\nstudy collective motion of electrons, where electrons behave like a viscous\nfluid akin to classical liquids. Experimental observations of such exotic\nstates have not been realized until recent years, and an on-going quest is to\namplify the hydrodynamic effect in electron fluids. Here we investigate the\nhydrodynamic properties of Dirac electron fluid in graphene from a microscopic\nviewpoint, and elucidate a novel way to enhance electron hydrodynamics. In\nparticular, we present strong evidence that the shear viscosity of Dirac\nelectrons can be enhanced by frequent electron-hole collisions, through three\ndistinct aspects: promoting electrons and holes around the Dirac point by\ndisorder, creating electron-hole shared zeroth Landau level by external\nmagnetic field, and inducing electron-hole excitations by dynamic deformation.\nWe also study Hall viscosity, which is closely related to the geometric\ntopology and exhibits quantum behavior analogous to Hall conductivity.\nTherefore, our work demonstrates the exotic landscape of hydrodynamic\nelectronics in graphene, and presents experimentally relevant responses to\nquantify the effects of electronic viscosity.",
+        "author": [
+          {
+            "name": "Weiwei Chen"
+          },
+          {
+            "name": "W. Zhu"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.106.014205",
+        "link": ["", "", ""],
+        "journal_ref": "Phys. Rev. B 106, 014205 (2022)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "66",
@@ -601,7 +2293,26 @@
       "x": 646.4313,
       "y": -151.06331,
       "value": 28.685715,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/0901.3612v2",
+        "updated": "2009-01-26T17:34:11Z",
+        "published": "2009-01-23T19:22:41Z",
+        "title": "Why holes are not like electrons. III. How holes in the normal state\n  turn into electrons in the superconducting state",
+        "summary": "In recent work, we discussed the difference between electrons and holes in\nenergy band in solids from a many-particle point of view, originating in the\nelectron-electron interaction[1], and from a single particle point of view,\noriginating in the electron-ion interaction[2]. We proposed that\nsuperconductivity in solids only occurs when the Fermi level is close to the\ntop of a band (hole carriers), that it originates in `undressing' of carriers\nfrom $both$ the electron-electron and the electron-ion interaction, and that as\na consequence holes in the normal state behave like electrons in the\nsuperconducting state[3]. However, the connection between both undressing\neffects was left unclear, as was left unclear how the transformation from hole\nbehavior to electron behavior occurs. Here we clarify these questions by\nshowing that the same electron-electron interaction physics that promotes\npairing of hole carriers and undressing of carriers from the electron-electron\ninteraction leads to undressing of carriers from the electron-ion interaction\nand transforms the behavior of carriers from hole-like to electron-like.\nFurthermore this phenomenon is connected with the expulsion of negative charge\nthat we predict to occur in superconductors. These unexpected connections\nsupport the validity of our theoretical framework, the theory of hole\nsuperconductivity, to explain superconductivity in solids.",
+        "author": {
+          "name": "J. E. Hirsch"
+        },
+        "doi": "10.1142/S0217979209052765",
+        "link": ["", "", ""],
+        "comment": "Continuation of Phys.Rev.B65, 184502 (2002) = cond-mat/0109385 (2001)\n  and Phys.Rev.B 71, 104522 (2005) = cond-mat/0504013 (2005)",
+        "journal_ref": "Int. J. Mod. Phys. B 23, 3035 (2009)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "67",
@@ -610,7 +2321,33 @@
       "x": 668.9568,
       "y": 204.65488,
       "value": 4,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/1708.08076v3",
+        "updated": "2017-09-22T05:00:15Z",
+        "published": "2017-08-27T10:46:54Z",
+        "title": "Electron loss from hydrogen-like highly charged ions in collisions with\n  electrons, protons and light atoms",
+        "summary": "We study electron loss from a hydrogen-like highly charged ion by the impact\nof equivelocity electrons and protons and also in collisions with hydrogen and\nhelium. The collision velocity $v$ varies between $v_{min}$ and $v_{max}$,\nwhere $v_{min}$ and $v_{max}$ correspond to the energy threshold\n$\\varepsilon_{th}$ for electron loss in collisions with a free electron and to\n$\\approx 5 \\, \\varepsilon_{th}$, respectively. Our results show that in this\nrange of $v$: i) compared to equivelocity electrons protons are more effective\nin inducing electron loss (due to a substantially larger volume of the\neffectively available final-state electron momentum space), ii) the relative\n(compared to protons) effectiveness of electron projectiles grows with increase\nin the atomic number of a highly charged ion, iii) a substantial part of the\nvolume of the final-state-electron momentum space, kinematically available in\ncollisions with electrons, is weaker populated in collisions with protons than\nwith electrons, iv) even when the total loss cross sections in collisions with\nelectrons and protons become already equal the spectra of the outgoing\nelectrons still remain quite different in almost the entire volume of the\nfinal-state-electron momentum space. The points i) and iii), in particular,\nmean that in collisions with hydrogen target the contributions to the loss\nprocess from the interactions with the nucleus and the electron(s) of the atom\nwould be to a large extent separated in the final-state-electron momentum\nspace.",
+        "author": [
+          {
+            "name": "K. N. Lyashchenko"
+          },
+          {
+            "name": "O. Yu. Andreev"
+          },
+          {
+            "name": "A. B. Voitkiv"
+          }
+        ],
+        "doi": "10.1088/1361-6455/aaaa11",
+        "link": ["", "", ""],
+        "comment": "13 pages, 7 figures",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "68",
@@ -619,7 +2356,31 @@
       "x": 78.4799,
       "y": -347.15146,
       "value": 28.685715,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/1004.0638v2",
+        "updated": "2010-07-09T02:16:15Z",
+        "published": "2010-04-05T14:18:25Z",
+        "title": "Electron spin relaxation in graphene from a microscopic approach: Role\n  of electron-electron interaction",
+        "summary": "Electron spin relaxation in graphene on a substrate is investigated from the\nfully microscopic kinetic spin Bloch equation approach. All the relevant\nscatterings, such as the electron-impurity, electron--acoustic-phonon,\nelectron--optical-phonon, electron--remote-interfacial-phonon, as well as\nelectron-electron Coulomb scatterings, are explicitly included. Our study\nconcentrates on clean intrinsic graphene, where the spin-orbit coupling from\nthe adatoms can be neglected. We discuss the effect of the electron-electron\nCoulomb interaction on spin relaxation under various conditions. It is shown\nthat the electron-electron Coulomb scattering plays an important role in spin\nrelaxation at high temperature. We also find a significant increase of the spin\nrelaxation time for high spin polarization even at room temperature, which is\ndue to the Coulomb Hartree-Fock contribution-induced effective longitudinal\nmagnetic field. It is also discovered that the spin relaxation time increases\nwith the in-plane electric field due to the hot-electron effect, which is\ndifferent from the non-monotonic behavior in semiconductors. Moreover, we show\nthat the electron-electron Coulomb scattering in graphene is not strong enough\nto establish the steady-state hot-electron distribution in the literature and\nan alternative approximate one is proposed based on our computation.",
+        "author": [
+          {
+            "name": "Y. Zhou"
+          },
+          {
+            "name": "M. W. Wu"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.82.085304",
+        "link": ["", "", ""],
+        "comment": "8 pages, 5 figures, to be published in Phys. Rev. B",
+        "journal_ref": "Phys. Rev. B 82, 085304 (2010)",
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "69",
@@ -628,7 +2389,41 @@
       "x": 150.35959,
       "y": -298.50797,
       "value": 28.685715,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/2005.02358v1",
+        "updated": "2020-05-05T17:44:12Z",
+        "published": "2020-05-05T17:44:12Z",
+        "title": "Coulomb-blockade-controlled single-electron point source",
+        "summary": "Coulomb blockade is a fundamental phenomenon in physics enabling transfer of\nindividual electrons one by one into electrically isolated nanostructures such\nas nanowires or quantum dots and thereby creation of sources of single\nelectrons. Nowadays, solid-state single-electron sources are key elements of\nthe emerging new technologies of quantum information processing and\nsingle-electron electronics. Moreover, advanced research in free-electron\nquantum optics and developments in electron microscopy require the point\nsources of free electrons in vacuum, which can be controlled on a single\nelectron level. However, up to now, single-electron vacuum guns were not\nrealized in practice. The problems to be solved include the formation of stable\ntip-shaped heterostructured emitters and control of liberated electrons in time\nand energy domain. Here we overcome these challenges by creating a field\nemission (FE) electron source based on a carbon nanowire coupled to an\nultra-sharp diamond tip by a tunnel junction. Using energy spectroscopy, we\ndirectly observe Coulomb oscillations of the electron Fermi level in the\nnanowire at room temperature and FE currents up to 1 $\\mu$A. We reveal that the\noscillations are suppressed at high FE current either by Joule heating or due\nto the high tunneling resistance, depending on the nanowire charging time,\nranging from about 25 fs to 1 ps. We anticipate that the combination of\nintroduced carbon single-electron sources with laser-induced gating is highly\npromising for the creation of coherent ultrashort free-electron bunches of\ninterest for low-energy electron holography and ultrafast electron or X-ray\nimaging and spectroscopy.",
+        "author": [
+          {
+            "name": "Victor I. Kleshch"
+          },
+          {
+            "name": "Vitali Porshyn"
+          },
+          {
+            "name": "Anton S. Orekhov"
+          },
+          {
+            "name": "Andrey S. Orekhov"
+          },
+          {
+            "name": "Dirk Lützenkirchen-Hecht"
+          },
+          {
+            "name": "Alexander N. Obraztsov"
+          }
+        ],
+        "comment": "25 pages, 10 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "70",
@@ -637,7 +2432,30 @@
       "x": 137.3717,
       "y": -410.2809,
       "value": 28.685715,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/9707099v1",
+        "updated": "1997-07-10T08:54:15Z",
+        "published": "1997-07-10T08:54:15Z",
+        "title": "Addition energies of a Quantum Dot with harmonic electron-electron\n  interactions",
+        "summary": "We study a two dimensional electron system in a parabolic confining potential\nand constant magnetic field for the case of harmonic electron-electron\ninteraction. We present analytic results for the electrochemical potential\nversus magnetic field and discuss the effects of correlation in connection with\nthe addition energy of a Quantum Dot with few electrons.",
+        "author": [
+          {
+            "name": "Antimo Angelucci"
+          },
+          {
+            "name": "Arturo Tagliacozzo"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.56.R7088",
+        "link": ["", "", ""],
+        "comment": "4 pages, two-column RevTeX, 2 figures included",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "71",
@@ -646,7 +2464,30 @@
       "x": 234.87747,
       "y": -400.85983,
       "value": 25.942856,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0102219v1",
+        "updated": "2001-02-12T23:09:16Z",
+        "published": "2001-02-12T23:09:16Z",
+        "title": "Conductivity of the classical two-dimensional electron gas",
+        "summary": "We discuss the applicability of the Boltzmann equation to the classical\ntwo-dimensional electron gas. We show that in the presence of both the\nelectron-impurity and electron-electron scattering the Boltzmann equation can\nbe inapplicable and the correct result for conductivity can be different from\nthe one obtained from the kinetic equation by a logarithmically large factor.",
+        "author": [
+          {
+            "name": "M. Hruska"
+          },
+          {
+            "name": "B. Spivak"
+          }
+        ],
+        "doi": "10.1103/PhysRevB.65.033315",
+        "link": ["", "", ""],
+        "comment": "Revtex, 3 pages",
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "72",
@@ -655,7 +2496,35 @@
       "x": 40.942253,
       "y": 113.78272,
       "value": 9.485714,
-      "category": 1
+      "category": 1,
+      "data": {
+        "id": "http://arxiv.org/abs/cond-mat/0309328v2",
+        "updated": "2004-08-12T19:37:27Z",
+        "published": "2003-09-12T21:54:23Z",
+        "title": "Electronic properties of structural twin and antiphase boundaries in\n  materials with strong electron-lattice couplings",
+        "summary": "Using a symmetry-based atomic scale theory of lattice distortions, we\ndemonstrate that elastic textures, such as twin and antiphase boundaries, can\ngenerate intricate electronic inhomogeneities in materials with strong\nelectron-lattice coupling, as observed in perovskite manganites and other\nfunctional materials.",
+        "author": [
+          {
+            "name": "K. H. Ahn"
+          },
+          {
+            "name": "T. Lookman"
+          },
+          {
+            "name": "A. Saxena"
+          },
+          {
+            "name": "A. R. Bishop"
+          }
+        ],
+        "comment": "New figure, focus shifted toward electronic properties",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ["", ""]
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "73",
@@ -664,7 +2533,29 @@
       "x": 437.939,
       "y": 291.58234,
       "value": 6.742859,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/physics/0310043v1",
+        "updated": "2003-10-09T12:54:27Z",
+        "published": "2003-10-09T12:54:27Z",
+        "title": "Restoration of Many Electron Wave Functions from One-Electron Density",
+        "summary": "General theorem describing a relation between diagonal of one-electron\ndensity matrix and a certain class of many-electron ensembles of determinant\nstates is proved. As a corollary to this theorem a constructive proof of\nsufficiency of Coleman's representability conditions is obtained. It is shown\nthat there exist rigorous schemes for construction of energy of many-electron\nsystem as functionals of one-electron density.",
+        "author": [
+          {
+            "name": "A. I. Panin"
+          },
+          {
+            "name": "A. N. Petrov"
+          }
+        ],
+        "comment": "LaTex, 10 pages",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "74",
@@ -673,7 +2564,32 @@
       "x": 466.04922,
       "y": 283.3606,
       "value": 6.742859,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/0704.1295v1",
+        "updated": "2007-04-10T19:49:21Z",
+        "published": "2007-04-10T19:49:21Z",
+        "title": "Electronic structure of the noncentrosymmetric superconductor\n  Mg10Ir19B16",
+        "summary": "Electronic structure of a novel superconducting noncentrosymmetric compound\nMg10Ir19B16 was calculated using the Korringa-Kohn-Rostoker method. Electronic\npart of the electron-phonon coupling constant, McMillan-Hopfield parameters,\nwere calculated using the rigid-muffin-tin approximation (RMTA). The magnitude\nof the electron-phonon coupling constant, analysing atomic contributions, is\ndiscussed. Our results show, that superconductivity in Mg10Ir19B16 is\npresumably mediated by electron-phonon interaction.",
+        "author": [
+          {
+            "name": "B. Wiendlocha"
+          },
+          {
+            "name": "J. Tobola"
+          },
+          {
+            "name": "S. Kaprzyk"
+          }
+        ],
+        "comment": "9 pages, 6 figures",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "75",
@@ -682,7 +2598,24 @@
       "x": 238.79364,
       "y": -314.06345,
       "value": 20.457146,
-      "category": 7
+      "category": 7,
+      "data": {
+        "id": "http://arxiv.org/abs/0802.3464v1",
+        "updated": "2008-02-23T21:09:59Z",
+        "published": "2008-02-23T21:09:59Z",
+        "title": "An electronic radiation of blackbody: Cosmic electron background",
+        "summary": "The Universe owns the electronic radiation of blackbody at temperature 2.725\nK, which we call the cosmic electron background. We calculate its radiation\nspectrum. The energy distribution of number density of electrons in the cosmic\nelectron background becomes zero as energy goes to both zero and infinity. It\nhas one maximum peak near the energy level of 10**(-23) J.",
+        "author": {
+          "name": "Jian-Miin Liu"
+        },
+        "comment": "4 pages with no figure",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     },
     {
       "id": "76",
@@ -691,7 +2624,29 @@
       "x": 712.18353,
       "y": 4.8131495,
       "value": 20.457146,
-      "category": 8
+      "category": 8,
+      "data": {
+        "id": "http://arxiv.org/abs/0808.3675v2",
+        "updated": "2009-07-08T03:03:52Z",
+        "published": "2008-08-27T11:05:27Z",
+        "title": "How do we interrogate the electrons without roughing them up?",
+        "summary": "Electrons are indistinguishable, but the energy of each electron is different\nin different materials and if we can exploit this energy, then we can\nsystematically study the changes of electronic properties in non free-electron\nmetals.",
+        "author": [
+          {
+            "name": "Andrew Das Arulsamy"
+          },
+          {
+            "name": "Marco Fronzi"
+          }
+        ],
+        "comment": "Postgraduate Representative Association of Sydney University (SUPRA)\n  Conference, 1-2 October 2008, Main Quadrangle, University of Sydney",
+        "link": ["", ""],
+        "primary_category": "",
+        "category": ""
+      },
+      "label": {
+        "show": false
+      }
     }
   ],
   "links": [
@@ -1714,31 +3669,31 @@
   ],
   "categories": [
     {
-      "name": "A"
+      "name": "Journal/Article"
     },
     {
-      "name": "B"
+      "name": "Book"
     },
     {
-      "name": "C"
+      "name": "Booklet"
     },
     {
-      "name": "D"
+      "name": "Conference"
     },
     {
-      "name": "E"
+      "name": "Paper"
     },
     {
-      "name": "F"
+      "name": "Report"
     },
     {
-      "name": "G"
+      "name": "Thesis"
     },
     {
-      "name": "H"
+      "name": "Unpublished"
     },
     {
-      "name": "I"
+      "name": "Reasearch"
     }
   ]
 }

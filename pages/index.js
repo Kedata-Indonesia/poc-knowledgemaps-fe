@@ -5,6 +5,7 @@ import { HiSearch } from "react-icons/hi";
 import { NextSeo } from "next-seo";
 import { getMainLayout } from "@/components/layouts/main-layout";
 import { useRouter } from "next/router";
+import BrandLogoSquare from "@/components/shared/brand-logo";
 
 const Home = () => {
   const router = useRouter();
@@ -13,9 +14,10 @@ const Home = () => {
   return (
     <>
       <NextSeo title="Home" />
-      <div className="mx-auto w-full max-w-3xl flex flex-col">
-        <h1 className="text-center text-2xl font-bold mb-4">
-          Map a research topic
+      <div className="mx-auto w-full max-w-3xl flex flex-col h-full justify-center">
+        <h1 className="text-center text-4xl font-bold mb-8 flex gap-2 items-center justify-center">
+          <BrandLogoSquare className="inline-block w-12 h-12" />
+          SummaSearch
         </h1>
         <form
           className="flex gap-4"

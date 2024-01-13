@@ -1,10 +1,21 @@
 import { getMainLayout } from "@/components/layouts/main-layout";
 import { NextSeo } from "next-seo";
+import { useRouter } from "next/router";
+import { HiChevronLeft } from "react-icons/hi";
 
 const AboutPage = () => {
+  const router = useRouter();
+
   return (
     <div className="[&>h2]:my-3 [&>h2]:text-2xl [&>h2]:font-semibold [&>h2]:text-gray-500 [&>p]:mb-4 max-w-3xl mx-auto flex-grow">
       <NextSeo title="About SummaSearch" />
+      <div
+        className="cursor-pointer flex items-center mb-5 w-fit text-primary"
+        onClick={() => router.back()}
+      >
+        <HiChevronLeft className="inline-block mr-1" />
+        <div>Back</div>
+      </div>
       <h1 className="text-4xl font-bold mb-5">About SummaSearch</h1>
       <h2>Welcome to SummaSearch</h2>
       <p>

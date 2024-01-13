@@ -3,31 +3,28 @@ import { forwardRef, useEffect, useMemo, useState } from "react";
 import ReactECharts from "echarts-for-react";
 import clsx from "clsx";
 
-const GraphChart = forwardRef(({ className, chartRef }, ref) => {
+const GraphChart = forwardRef(({ chartData, className, chartRef }, ref) => {
   const [data, setData] = useState(undefined);
 
   useEffect(() => {
-    ky.get("/les-miserables.json")
-      .then((res) => res.json())
-      .then((res) => {
-        res.nodes.forEach(function (node) {
-          node.label = {
-            show: node.symbolSize > 30,
-          };
-        });
-        setData(res);
-      });
-  }, []);
+    if (chartData) {
+      setData(chartData);
+    }
+  }, [chartData]);
 
   const options = useMemo(() => {
     if (!data) return {};
 
-    return {
+    /**
+     * @type {import("echarts").EChartsOption}
+     */
+    const _options = {
       title: {
         text: "Les Miserables",
         subtext: "Default layout",
         top: "bottom",
         left: "right",
+        show: false,
       },
       tooltip: {},
       legend: [
@@ -43,7 +40,6 @@ const GraphChart = forwardRef(({ className, chartRef }, ref) => {
       animationEasingUpdate: "quinticInOut",
       series: [
         {
-          name: "Les Miserables",
           type: "graph",
           layout: "none",
           data: data.nodes,
@@ -67,6 +63,8 @@ const GraphChart = forwardRef(({ className, chartRef }, ref) => {
         },
       ],
     };
+
+    return _options;
   }, [data]);
 
   return (

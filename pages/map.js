@@ -1,61 +1,53 @@
 import GraphChart from "@/components/shared/graph-chart";
+import ky from "ky";
 import { useRouter } from "next/router";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AiOutlineFilePdf } from "react-icons/ai";
-
-const samples = [
-  {
-    type: "journal/article",
-    title:
-      "Contribution Of Islamic Law To Legal Development In Indonesia (2022-12-26)",
-    abstract:
-      "Sistem hukum yang dipergunakan di Indonesia adalah sistem hukum civil law, yaitu sistem hukum kodifikasi atau tertulis. Kontribusi hukum islam di indonesia dilakukan pembangunan, pembinaan dan penerapan hukum Islam sebagai hukum positip dalam rang...",
-    writer: "Achmad Sodiki",
-    publisher: "Jurnal Hukum Islam",
-    year: "2017",
-    link: "https://ejournal.unida.gontor.ac.id/index.php/jhi/article/view/1125",
-  },
-  {
-    type: "journal/article",
-    title:
-      "Perbandingan konsep dan sumber hukum: antara hukum islam dan hukum positif (2004)",
-    abstract:
-      "Intisari Artikel ini membahas tentang konsep dan sumber hukum Islam dan hukum positif. Pembahasannya merupakan ranah filsafat hukum, yang mengkaji hukum dari segi hakikatnya. Metode yang digunakan adalah metode komparatif, yaitu dengan memban...",
-    writer: "i-lib Perpustakaan UGM",
-    publisher: "i-lib UGM",
-    year: "2004",
-    link: "http://etd.repository.ugm.ac.id/index.php?mod=penelitian_detail&sub=PenelitianDetail&act=view&typ=html&buku_id=10640",
-  },
-  {
-    type: "journal/article",
-    title:
-      "SYARI’AT ISLAM DAN HUKUM NASIONAL (Problematika Transformasi dan Integrasi Hukum Islam Kedalam Hukum Nasional) (2009)",
-    abstract:
-      "Abstract Banyak tantangan yang dihadapi umat Islam dalam upayanya melakukan transformasi dan Integrasi Hukum Islam kedalam Hukum Nasional.Untuk bisa melakukan transformasi, umat Islam di Indonesia mesti terus menerus mengembangkan model-...",
-    writer: "Nurrohman Nurrohman Syarif",
-    publisher: "Jurnal Hukum Islam",
-    year: "2009",
-    link: "https://ejournal.unida.gontor.ac.id/index.php/jhi/article/view/1125",
-  },
-  {
-    type: "journal/article",
-    title:
-      "SYARI’AT ISLAM DAN HUKUM NASIONAL (Problematika Transformasi dan Integrasi Hukum Islam Kedalam Hukum Nasional) (2009)",
-    abstract:
-      "Hukum Islam merupakan salah satu sumber hukum nasional di Indonesia. Hukum Islam di Indonesia merupakan hukum yang bersumber dari Al-Qur’an dan Hadist. Hukum Islam di Indonesia juga merupakan hukum yang bersifat positif. Hukum Islam di Indon...",
-    writer: "Rizky Nurul Hidayati",
-    publisher: "Jurnal Hukum Islam",
-    year: "2018",
-    link: "https://ejournal.unida.gontor.ac.id/index.php/jhi/article/view/1125",
-  },
-];
+import dayjs from "dayjs";
+import { HiX } from "react-icons/hi";
 
 const SearchPage = () => {
   const router = useRouter();
   const { q } = router.query;
   const chartRef = useRef(null);
 
+  const [chartData, setChartData] = useState(undefined);
+
+  const [samples, setSamples] = useState([]);
+  const [filteredSamples, setFilteredSamples] = useState([]);
+  const [activeCategory, setActiveCategory] = useState("");
+
   useEffect(() => {
+    ky.get("/les-miserables.json")
+      .then((res) => res.json())
+      .then((res) => {
+        res.nodes.forEach(function (node) {
+          node.data = {
+            ...node.data,
+            category_name: res.categories[node.category].name,
+          };
+          node.label = {
+            show: node.symbolSize > 30,
+          };
+        });
+
+        setChartData(res);
+        setSamples(res.nodes);
+      });
+  }, []);
+
+  useEffect(() => {
+    if (!activeCategory) return setFilteredSamples(samples);
+
+    setFilteredSamples(
+      samples.filter((sample) => sample.category === activeCategory)
+    );
+  }, [activeCategory, samples]);
+
+  useEffect(() => {
+    /**
+     * @type {import("echarts").ECharts}
+     */
     const chart = chartRef.current.getEchartsInstance();
 
     // Listen to series click event
@@ -64,7 +56,8 @@ const SearchPage = () => {
       if (componentType !== "series") return;
 
       const { data } = params;
-      console.log(data);
+
+      setActiveCategory(data.category);
     });
   }, []);
 
@@ -75,38 +68,58 @@ const SearchPage = () => {
           <h3 className="text-2xl">
             Knowlegde map of <b>{q}</b>
           </h3>
-          <GraphChart className="flex-grow" ref={chartRef} />
+          <GraphChart
+            className="flex-grow"
+            chartData={chartData}
+            ref={chartRef}
+          />
         </div>
         <div className="w-[40%] h-screen flex flex-col overflow-hidden border-l border-l-gray-300">
           <div className="w-full text-center bg-gray-100 p-4 border-b border-gray-300">
             Overview (200 documents)
           </div>
+          {activeCategory && (
+            <div className="p-4 border-b border-b-gray-300 flex gap-3 items-center">
+              <p>
+                Category: <b>{chartData.categories?.[activeCategory].name}</b>
+              </p>
+              <button className="flex p-1 rounded-full bg-gray-100" onClick={() => setActiveCategory('')}>
+                <HiX />
+              </button>
+            </div>
+          )}
           <div className="w-full h-full overflow-y-auto flex flex-col">
-            {samples.map((sample, index) => (
+            {filteredSamples?.map(({ data }, index) => (
               <div
                 key={`items-${index}`}
                 className="flex flex-col gap-2 items-start border-b border-b-gray-300 p-4"
               >
                 <div className="text-xs bg-gray-100 inline-block py-1 px-5 rounded-full">
-                  {sample.type}
+                  {data.category_name}
                 </div>
                 <a
                   href="#"
                   className="font-semibold leading-7 text-lg hover:underline"
                 >
-                  {sample.title}
+                  {data.title}
                 </a>
-                <p className="text-sm">{sample.writer}</p>
+                <p className="text-sm">{data.author[0]?.name}</p>
                 <p className="text-xs text-gray-400">
-                  {sample.publisher} {sample.year}
+                  {dayjs(data.date).format("DD MMMM YYYY")}
+                </p>
+                <p className="text-xs">
+                  [doi]:{" "}
+                  <a href="#" className="underline">
+                    {data.doi}
+                  </a>
                 </p>
                 <p className="text-xs">
                   [link]:{" "}
                   <a href="#" className="underline">
-                    {sample.link}
+                    {data.id}
                   </a>
                 </p>
-                <p className="text-sm ">{sample.abstract}</p>
+                <p className="text-sm line-clamp-4">{data.summary}</p>
                 <a className="btn btn-primary !btn-sm !rounded-full">
                   <AiOutlineFilePdf />
                   PDF
